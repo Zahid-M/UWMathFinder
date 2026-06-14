@@ -8,7 +8,7 @@
     "instructor": "Staff",
     "topics": ["vectors", "dot product", "cross product", "lines and planes", "quadric surfaces", "vector functions", "partial derivatives", "linearization", "tangent planes", "space curves"],
     "pdf": "exams/m126finalSpr2025.pdf",
-    "answer_key": "#",
+    "answer_key": "exams/m126finalSpr2025Ans.pdf",
     "is_key": false
   },
   {
@@ -20,7 +20,7 @@
     "instructor": "Staff",
     "topics": ["vectors", "cross product", "lines and planes", "quadric surfaces", "space curves", "tangent planes", "partial derivatives", "optimization", "double integrals", "reversing order of integration"],
     "pdf": "exams/m126finalWin2025.pdf",
-    "answer_key": "#",
+    "answer_key": "exams/m126finalWin2025Ans.pdf",
     "is_key": false
   },
   {
@@ -32,7 +32,7 @@
     "instructor": "Staff",
     "topics": ["lines and planes", "quadric surfaces", "tangent planes", "linearization", "critical points", "optimization", "partial derivatives", "vector functions"],
     "pdf": "exams/m126finalAut2024.pdf",
-    "answer_key": "#",
+    "answer_key": "exams/m126finalAut2024Ans.pdf",
     "is_key": false
   },
   {
@@ -44,7 +44,7 @@
     "instructor": "Staff",
     "topics": ["lines and planes", "curvature", "implicit differentiation", "tangent planes", "linearization", "optimization", "double integrals", "polar coordinates", "space curves"],
     "pdf": "exams/m126finalSpr2024.pdf",
-    "answer_key": "#",
+    "answer_key": "exams/m126finalSpr2024Ans.pdf",
     "is_key": false
   },
   {
@@ -56,7 +56,7 @@
     "instructor": "Staff",
     "topics": ["lines and planes", "curvature", "saddle points", "optimization", "Lagrange multipliers", "double integrals", "partial derivatives", "space curves", "tangent planes"],
     "pdf": "exams/m126finalWin2024.pdf",
-    "answer_key": "#",
+    "answer_key": "exams/m126finalWin2024Ans.pdf",
     "is_key": false
   },
   {
@@ -68,7 +68,7 @@
     "instructor": "Staff",
     "topics": ["lines and planes", "quadric surfaces", "curvature", "tangent planes", "partial derivatives", "optimization", "double integrals", "reversing order of integration", "space curves"],
     "pdf": "exams/m126finalAut2023.pdf",
-    "answer_key": "#",
+    "answer_key": "exams/m126finalAut2023Ans.pdf",
     "is_key": false
   },
   {
@@ -80,7 +80,7 @@
     "instructor": "Staff",
     "topics": ["lines and planes", "vector functions", "curvature", "critical points", "saddle points", "tangent planes", "linearization", "double integrals", "reversing order of integration", "polar coordinates"],
     "pdf": "exams/m126finalSpr2023.pdf",
-    "answer_key": "#",
+    "answer_key": "exams/m126finalSpr2023Ans.pdf",
     "is_key": false
   },
   {
@@ -92,7 +92,7 @@
     "instructor": "Staff",
     "topics": ["lines and planes", "space curves", "curvature", "optimization", "tangent planes", "double integrals", "polar coordinates", "reversing order of integration", "partial derivatives"],
     "pdf": "exams/m126finalWin2023.pdf",
-    "answer_key": "#",
+    "answer_key": "exams/m126finalWin2023Ans.pdf",
     "is_key": false
   },
   {
@@ -104,7 +104,7 @@
     "instructor": "Staff",
     "topics": ["lines and planes", "vector functions", "partial derivatives", "critical points", "optimization", "double integrals", "polar coordinates", "center of mass", "quadric surfaces"],
     "pdf": "exams/m126finalAut2022.pdf",
-    "answer_key": "#",
+    "answer_key": "exams/m126finalAut2022Ans.pdf",
     "is_key": false
   },
   {
@@ -116,7 +116,7 @@
     "instructor": "Staff",
     "topics": ["vectors", "dot product", "cross product", "space curves", "curvature", "implicit differentiation", "critical points", "optimization", "double integrals", "center of mass"],
     "pdf": "exams/m126finalWin2022.pdf",
-    "answer_key": "#",
+    "answer_key": "exams/m126finalWin2022Ans.pdf",
     "is_key": false
   }
 ]
