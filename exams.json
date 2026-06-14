@@ -6,9 +6,18 @@
     "quarter": "Spring",
     "year": 2026,
     "instructor": "Staff",
-    "topics": ["vectors", "dot product", "cross product", "lines and planes", "quadric surfaces", "space curves", "vector functions", "curvature"],
+    "topics": [
+      "vectors",
+      "dot product",
+      "cross product",
+      "lines and planes",
+      "quadric surfaces",
+      "space curves",
+      "vector functions",
+      "curvature"
+    ],
     "pdf": "exams/m126mid2Spr2026.pdf",
-    "answer_key": "#"
+    "answer_key": "exams/m126mid2Spr2026Ans.pdf"
   },
   {
     "id": "m126mid1spr2026",
@@ -17,9 +26,16 @@
     "quarter": "Spring",
     "year": 2026,
     "instructor": "Staff",
-    "topics": ["power series", "Taylor series", "radius of convergence", "interval of convergence", "Maclaurin series", "Taylor polynomials"],
+    "topics": [
+      "power series",
+      "Taylor series",
+      "radius of convergence",
+      "interval of convergence",
+      "Maclaurin series",
+      "Taylor polynomials"
+    ],
     "pdf": "exams/m126mid1Spr2026.pdf",
-    "answer_key": "#"
+    "answer_key": "exams/m126mid1Spr2026Ans.pdf"
   },
   {
     "id": "m126finalspr2025",
@@ -28,7 +44,18 @@
     "quarter": "Spring",
     "year": 2025,
     "instructor": "Staff",
-    "topics": ["vectors", "dot product", "cross product", "lines and planes", "quadric surfaces", "vector functions", "partial derivatives", "linearization", "tangent planes", "space curves"],
+    "topics": [
+      "vectors",
+      "dot product",
+      "cross product",
+      "lines and planes",
+      "quadric surfaces",
+      "vector functions",
+      "partial derivatives",
+      "linearization",
+      "tangent planes",
+      "space curves"
+    ],
     "pdf": "exams/m126finalSpr2025.pdf",
     "answer_key": "exams/m126finalSpr2025Ans.pdf"
   },
@@ -39,7 +66,18 @@
     "quarter": "Winter",
     "year": 2025,
     "instructor": "Staff",
-    "topics": ["vectors", "cross product", "lines and planes", "quadric surfaces", "space curves", "tangent planes", "partial derivatives", "optimization", "double integrals", "reversing order of integration"],
+    "topics": [
+      "vectors",
+      "cross product",
+      "lines and planes",
+      "quadric surfaces",
+      "space curves",
+      "tangent planes",
+      "partial derivatives",
+      "optimization",
+      "double integrals",
+      "reversing order of integration"
+    ],
     "pdf": "exams/m126finalWin2025.pdf",
     "answer_key": "exams/m126finalWin2025Ans.pdf"
   },
@@ -50,7 +88,16 @@
     "quarter": "Autumn",
     "year": 2024,
     "instructor": "Staff",
-    "topics": ["lines and planes", "quadric surfaces", "tangent planes", "linearization", "critical points", "optimization", "partial derivatives", "vector functions"],
+    "topics": [
+      "lines and planes",
+      "quadric surfaces",
+      "tangent planes",
+      "linearization",
+      "critical points",
+      "optimization",
+      "partial derivatives",
+      "vector functions"
+    ],
     "pdf": "exams/m126finalAut2024.pdf",
     "answer_key": "exams/m126finalAut2024Ans.pdf"
   },
@@ -61,7 +108,17 @@
     "quarter": "Spring",
     "year": 2024,
     "instructor": "Staff",
-    "topics": ["lines and planes", "curvature", "implicit differentiation", "tangent planes", "linearization", "optimization", "double integrals", "polar coordinates", "space curves"],
+    "topics": [
+      "lines and planes",
+      "curvature",
+      "implicit differentiation",
+      "tangent planes",
+      "linearization",
+      "optimization",
+      "double integrals",
+      "polar coordinates",
+      "space curves"
+    ],
     "pdf": "exams/m126finalSpr2024.pdf",
     "answer_key": "exams/m126finalSpr2024Ans.pdf"
   },
@@ -72,7 +129,17 @@
     "quarter": "Winter",
     "year": 2024,
     "instructor": "Staff",
-    "topics": ["lines and planes", "curvature", "saddle points", "optimization", "Lagrange multipliers", "double integrals", "partial derivatives", "space curves", "tangent planes"],
+    "topics": [
+      "lines and planes",
+      "curvature",
+      "saddle points",
+      "optimization",
+      "Lagrange multipliers",
+      "double integrals",
+      "partial derivatives",
+      "space curves",
+      "tangent planes"
+    ],
     "pdf": "exams/m126finalWin2024.pdf",
     "answer_key": "exams/m126finalWin2024Ans.pdf"
   },
@@ -83,7 +150,16 @@
     "quarter": "Spring",
     "year": 2025,
     "instructor": "Staff",
-    "topics": ["vectors", "cross product", "dot product", "lines and planes", "quadric surfaces", "space curves", "tangent lines", "parametric equations"],
+    "topics": [
+      "vectors",
+      "cross product",
+      "dot product",
+      "lines and planes",
+      "quadric surfaces",
+      "space curves",
+      "tangent lines",
+      "parametric equations"
+    ],
     "pdf": "exams/m126mid1Spr2025.pdf",
     "answer_key": "exams/m126mid1Spr2025Ans.pdf"
   },
@@ -94,7 +170,16 @@
     "quarter": "Spring",
     "year": 2024,
     "instructor": "Staff",
-    "topics": ["vectors", "dot product", "cross product", "lines and planes", "parallelograms", "projections", "parametric equations", "planes"],
+    "topics": [
+      "vectors",
+      "dot product",
+      "cross product",
+      "lines and planes",
+      "parallelograms",
+      "projections",
+      "parametric equations",
+      "planes"
+    ],
     "pdf": "exams/m126mid1Spr2024.pdf",
     "answer_key": "exams/m126mid1Spr2024Ans.pdf"
   },
@@ -105,7 +190,16 @@
     "quarter": "Winter",
     "year": 2024,
     "instructor": "Staff",
-    "topics": ["quadric surfaces", "vectors", "cross product", "dot product", "lines and planes", "projections", "distance", "parametric equations"],
+    "topics": [
+      "quadric surfaces",
+      "vectors",
+      "cross product",
+      "dot product",
+      "lines and planes",
+      "projections",
+      "distance",
+      "parametric equations"
+    ],
     "pdf": "exams/m126mid1Win2024.pdf",
     "answer_key": "exams/m126mid1Win2024Ans.pdf"
   },
@@ -116,7 +210,17 @@
     "quarter": "Autumn",
     "year": 2023,
     "instructor": "Staff",
-    "topics": ["lines and planes", "quadric surfaces", "curvature", "tangent planes", "partial derivatives", "optimization", "double integrals", "reversing order of integration", "space curves"],
+    "topics": [
+      "lines and planes",
+      "quadric surfaces",
+      "curvature",
+      "tangent planes",
+      "partial derivatives",
+      "optimization",
+      "double integrals",
+      "reversing order of integration",
+      "space curves"
+    ],
     "pdf": "exams/m126finalAut2023.pdf",
     "answer_key": "exams/m126finalAut2023Ans.pdf"
   },
@@ -127,7 +231,18 @@
     "quarter": "Spring",
     "year": 2023,
     "instructor": "Staff",
-    "topics": ["lines and planes", "vector functions", "curvature", "critical points", "saddle points", "tangent planes", "linearization", "double integrals", "reversing order of integration", "polar coordinates"],
+    "topics": [
+      "lines and planes",
+      "vector functions",
+      "curvature",
+      "critical points",
+      "saddle points",
+      "tangent planes",
+      "linearization",
+      "double integrals",
+      "reversing order of integration",
+      "polar coordinates"
+    ],
     "pdf": "exams/m126finalSpr2023.pdf",
     "answer_key": "exams/m126finalSpr2023Ans.pdf"
   },
@@ -138,7 +253,17 @@
     "quarter": "Winter",
     "year": 2023,
     "instructor": "Staff",
-    "topics": ["lines and planes", "space curves", "curvature", "optimization", "tangent planes", "double integrals", "polar coordinates", "reversing order of integration", "partial derivatives"],
+    "topics": [
+      "lines and planes",
+      "space curves",
+      "curvature",
+      "optimization",
+      "tangent planes",
+      "double integrals",
+      "polar coordinates",
+      "reversing order of integration",
+      "partial derivatives"
+    ],
     "pdf": "exams/m126finalWin2023.pdf",
     "answer_key": "exams/m126finalWin2023Ans.pdf"
   },
@@ -149,7 +274,16 @@
     "quarter": "Spring",
     "year": 2023,
     "instructor": "Staff",
-    "topics": ["quadric surfaces", "vectors", "cross product", "dot product", "lines and planes", "parallelograms", "projections", "parametric equations"],
+    "topics": [
+      "quadric surfaces",
+      "vectors",
+      "cross product",
+      "dot product",
+      "lines and planes",
+      "parallelograms",
+      "projections",
+      "parametric equations"
+    ],
     "pdf": "exams/m126mid1Spr2023.pdf",
     "answer_key": "exams/m126mid1Spr2023Ans.pdf"
   },
@@ -160,7 +294,17 @@
     "quarter": "Autumn",
     "year": 2022,
     "instructor": "Staff",
-    "topics": ["lines and planes", "vector functions", "partial derivatives", "critical points", "optimization", "double integrals", "polar coordinates", "center of mass", "quadric surfaces"],
+    "topics": [
+      "lines and planes",
+      "vector functions",
+      "partial derivatives",
+      "critical points",
+      "optimization",
+      "double integrals",
+      "polar coordinates",
+      "center of mass",
+      "quadric surfaces"
+    ],
     "pdf": "exams/m126finalAut2022.pdf",
     "answer_key": "exams/m126finalAut2022Ans.pdf"
   },
@@ -171,7 +315,18 @@
     "quarter": "Winter",
     "year": 2022,
     "instructor": "Staff",
-    "topics": ["vectors", "dot product", "cross product", "space curves", "curvature", "implicit differentiation", "critical points", "optimization", "double integrals", "center of mass"],
+    "topics": [
+      "vectors",
+      "dot product",
+      "cross product",
+      "space curves",
+      "curvature",
+      "implicit differentiation",
+      "critical points",
+      "optimization",
+      "double integrals",
+      "center of mass"
+    ],
     "pdf": "exams/m126finalWin2022.pdf",
     "answer_key": "exams/m126finalWin2022Ans.pdf"
   },
@@ -182,7 +337,16 @@
     "quarter": "Autumn",
     "year": 2025,
     "instructor": "Staff",
-    "topics": ["trig integrals", "integration by parts", "improper integrals", "comparison test", "net change", "area between curves", "volumes of revolution", "FTC"],
+    "topics": [
+      "trig integrals",
+      "integration by parts",
+      "improper integrals",
+      "comparison test",
+      "net change",
+      "area between curves",
+      "volumes of revolution",
+      "FTC"
+    ],
     "pdf": "exams/m125finalAut2025.pdf",
     "answer_key": "exams/m125finalAut2025Ans.pdf"
   },
@@ -193,7 +357,16 @@
     "quarter": "Spring",
     "year": 2025,
     "instructor": "Staff",
-    "topics": ["integration by parts", "partial fractions", "improper integrals", "comparison test", "FTC", "area between curves", "volumes of revolution", "FTC part 2"],
+    "topics": [
+      "integration by parts",
+      "partial fractions",
+      "improper integrals",
+      "comparison test",
+      "FTC",
+      "area between curves",
+      "volumes of revolution",
+      "FTC part 2"
+    ],
     "pdf": "exams/m125finalSpr2025.pdf",
     "answer_key": "exams/m125finalSpr2025Ans.pdf"
   },
@@ -204,7 +377,17 @@
     "quarter": "Winter",
     "year": 2025,
     "instructor": "Staff",
-    "topics": ["partial fractions", "trig substitution", "integration by parts", "u-substitution", "FTC", "net change", "sequences", "series", "improper integrals"],
+    "topics": [
+      "partial fractions",
+      "trig substitution",
+      "integration by parts",
+      "u-substitution",
+      "FTC",
+      "net change",
+      "sequences",
+      "series",
+      "improper integrals"
+    ],
     "pdf": "exams/m125finalWin2025.pdf",
     "answer_key": "exams/m125finalWin2025Ans.pdf"
   },
@@ -215,7 +398,17 @@
     "quarter": "Autumn",
     "year": 2024,
     "instructor": "Staff",
-    "topics": ["trig integrals", "integration by parts", "partial fractions", "improper integrals", "FTC", "area between curves", "volumes of revolution", "sequences", "series"],
+    "topics": [
+      "trig integrals",
+      "integration by parts",
+      "partial fractions",
+      "improper integrals",
+      "FTC",
+      "area between curves",
+      "volumes of revolution",
+      "sequences",
+      "series"
+    ],
     "pdf": "exams/m125finalAut2024.pdf",
     "answer_key": "exams/m125finalAut2024Ans.pdf"
   },
@@ -226,7 +419,16 @@
     "quarter": "Winter",
     "year": 2024,
     "instructor": "Staff",
-    "topics": ["trig integrals", "trig substitution", "integration by parts", "partial fractions", "improper integrals", "FTC", "area between curves", "volumes of revolution"],
+    "topics": [
+      "trig integrals",
+      "trig substitution",
+      "integration by parts",
+      "partial fractions",
+      "improper integrals",
+      "FTC",
+      "area between curves",
+      "volumes of revolution"
+    ],
     "pdf": "exams/m125finalWin2024.pdf",
     "answer_key": "exams/m125finalWin2024Ans.pdf"
   },
@@ -237,7 +439,16 @@
     "quarter": "Spring",
     "year": 2023,
     "instructor": "Staff",
-    "topics": ["trig integrals", "integration by parts", "partial fractions", "improper integrals", "comparison test", "sequences", "series", "convergence tests"],
+    "topics": [
+      "trig integrals",
+      "integration by parts",
+      "partial fractions",
+      "improper integrals",
+      "comparison test",
+      "sequences",
+      "series",
+      "convergence tests"
+    ],
     "pdf": "exams/m125finalSpr2023.pdf",
     "answer_key": "exams/m125finalSpr2023Ans.pdf"
   },
@@ -248,7 +459,17 @@
     "quarter": "Winter",
     "year": 2023,
     "instructor": "Staff",
-    "topics": ["trig integrals", "trig substitution", "partial fractions", "improper integrals", "FTC", "area between curves", "volumes of revolution", "sequences", "series"],
+    "topics": [
+      "trig integrals",
+      "trig substitution",
+      "partial fractions",
+      "improper integrals",
+      "FTC",
+      "area between curves",
+      "volumes of revolution",
+      "sequences",
+      "series"
+    ],
     "pdf": "exams/m125finalWin2023.pdf",
     "answer_key": "exams/m125finalWin2023Ans.pdf"
   },
@@ -259,7 +480,16 @@
     "quarter": "Autumn",
     "year": 2022,
     "instructor": "Staff",
-    "topics": ["u-substitution", "integration by parts", "FTC", "area between curves", "volumes of revolution", "sequences", "series", "convergence tests"],
+    "topics": [
+      "u-substitution",
+      "integration by parts",
+      "FTC",
+      "area between curves",
+      "volumes of revolution",
+      "sequences",
+      "series",
+      "convergence tests"
+    ],
     "pdf": "exams/m125finalAut2022.pdf",
     "answer_key": "exams/m125finalAut2022Ans.pdf"
   },
@@ -270,7 +500,16 @@
     "quarter": "Spring",
     "year": 2022,
     "instructor": "Staff",
-    "topics": ["trig integrals", "integration by parts", "improper integrals", "partial fractions", "trig substitution", "FTC", "area between curves", "volumes of revolution"],
+    "topics": [
+      "trig integrals",
+      "integration by parts",
+      "improper integrals",
+      "partial fractions",
+      "trig substitution",
+      "FTC",
+      "area between curves",
+      "volumes of revolution"
+    ],
     "pdf": "exams/m125finalSpr2022.pdf",
     "answer_key": "exams/m125finalSpr2022Ans.pdf"
   },
@@ -281,7 +520,17 @@
     "quarter": "Winter",
     "year": 2022,
     "instructor": "Staff",
-    "topics": ["integration by parts", "trig integrals", "trig substitution", "FTC", "net change", "area between curves", "volumes of revolution", "work", "center of mass"],
+    "topics": [
+      "integration by parts",
+      "trig integrals",
+      "trig substitution",
+      "FTC",
+      "net change",
+      "area between curves",
+      "volumes of revolution",
+      "work",
+      "center of mass"
+    ],
     "pdf": "exams/m125finalWin2022.pdf",
     "answer_key": "exams/m125finalWin2022Ans.pdf"
   },
@@ -292,9 +541,16 @@
     "quarter": "Autumn",
     "year": 2024,
     "instructor": "Staff",
-    "topics": ["u-substitution", "FTC", "definite integrals", "Riemann sums", "area between curves", "net change"],
+    "topics": [
+      "u-substitution",
+      "FTC",
+      "definite integrals",
+      "Riemann sums",
+      "area between curves",
+      "net change"
+    ],
     "pdf": "exams/m125mid1Aut2024.pdf",
-    "answer_key": "#"
+    "answer_key": "exams/m125mid1Aut2024Ans.pdf"
   },
   {
     "id": "m125mid1aut2023",
@@ -303,9 +559,16 @@
     "quarter": "Autumn",
     "year": 2023,
     "instructor": "Staff",
-    "topics": ["u-substitution", "FTC", "definite integrals", "Riemann sums", "area between curves", "net change"],
+    "topics": [
+      "u-substitution",
+      "FTC",
+      "definite integrals",
+      "Riemann sums",
+      "area between curves",
+      "net change"
+    ],
     "pdf": "exams/m125mid1Aut2023.pdf",
-    "answer_key": "#"
+    "answer_key": "exams/m125mid1Aut2023Ans.pdf"
   },
   {
     "id": "m125mid1win2023",
@@ -314,9 +577,16 @@
     "quarter": "Winter",
     "year": 2023,
     "instructor": "Staff",
-    "topics": ["u-substitution", "FTC", "definite integrals", "Riemann sums", "area between curves", "net change"],
+    "topics": [
+      "u-substitution",
+      "FTC",
+      "definite integrals",
+      "Riemann sums",
+      "area between curves",
+      "net change"
+    ],
     "pdf": "exams/m125mid1Win2023.pdf",
-    "answer_key": "#"
+    "answer_key": "exams/m125mid1Win2023Ans.pdf"
   },
   {
     "id": "m125mid1win2019",
@@ -325,9 +595,17 @@
     "quarter": "Winter",
     "year": 2019,
     "instructor": "Staff",
-    "topics": ["u-substitution", "FTC", "definite integrals", "Riemann sums", "area between curves", "volumes of revolution", "net change"],
+    "topics": [
+      "u-substitution",
+      "FTC",
+      "definite integrals",
+      "Riemann sums",
+      "area between curves",
+      "volumes of revolution",
+      "net change"
+    ],
     "pdf": "exams/m125mid1Win2019.pdf",
-    "answer_key": "#"
+    "answer_key": "exams/m125mid1Win2019Ans.pdf"
   },
   {
     "id": "m125mid2win2019",
@@ -336,9 +614,18 @@
     "quarter": "Winter",
     "year": 2019,
     "instructor": "Staff",
-    "topics": ["partial fractions", "trig substitution", "trig integrals", "improper integrals", "integration by parts", "work", "volumes of revolution", "Simpson's rule"],
+    "topics": [
+      "partial fractions",
+      "trig substitution",
+      "trig integrals",
+      "improper integrals",
+      "integration by parts",
+      "work",
+      "volumes of revolution",
+      "Simpson's rule"
+    ],
     "pdf": "exams/m125mid2Win2019.pdf",
-    "answer_key": "#"
+    "answer_key": "exams/m125mid2Win2019Ans.pdf"
   },
   {
     "id": "m125mid1win2018",
@@ -347,9 +634,16 @@
     "quarter": "Winter",
     "year": 2018,
     "instructor": "Staff",
-    "topics": ["u-substitution", "FTC", "definite integrals", "area between curves", "volumes of revolution", "net change"],
+    "topics": [
+      "u-substitution",
+      "FTC",
+      "definite integrals",
+      "area between curves",
+      "volumes of revolution",
+      "net change"
+    ],
     "pdf": "exams/m125mid1Win2018.pdf",
-    "answer_key": "#"
+    "answer_key": "exams/m125mid1Win2018Ans.pdf"
   },
   {
     "id": "m125mid2win2018",
@@ -358,9 +652,18 @@
     "quarter": "Winter",
     "year": 2018,
     "instructor": "Staff",
-    "topics": ["partial fractions", "trig substitution", "trig integrals", "improper integrals", "integration by parts", "average value", "work", "volumes of revolution"],
+    "topics": [
+      "partial fractions",
+      "trig substitution",
+      "trig integrals",
+      "improper integrals",
+      "integration by parts",
+      "average value",
+      "work",
+      "volumes of revolution"
+    ],
     "pdf": "exams/m125mid2Win2018.pdf",
-    "answer_key": "#"
+    "answer_key": "exams/m125mid2Win2018Ans.pdf"
   },
   {
     "id": "m125mid2aut2017",
@@ -369,8 +672,16 @@
     "quarter": "Autumn",
     "year": 2017,
     "instructor": "Staff",
-    "topics": ["partial fractions", "integration by parts", "trig substitution", "trig integrals", "improper integrals", "Simpson's rule", "work"],
+    "topics": [
+      "partial fractions",
+      "integration by parts",
+      "trig substitution",
+      "trig integrals",
+      "improper integrals",
+      "Simpson's rule",
+      "work"
+    ],
     "pdf": "exams/m125mid2Aut2017.pdf",
-    "answer_key": "#"
+    "answer_key": "exams/m125mid2Aut2017Ans.pdf"
   }
 ]
