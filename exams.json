@@ -8,7 +8,7 @@
     "instructor": "Staff",
     "topics": ["vectors", "dot product", "cross product", "lines and planes", "quadric surfaces", "space curves", "vector functions", "curvature"],
     "pdf": "exams/m126mid2Spr2026.pdf",
-    "answer_key": "exams/m126mid2Spr2026Ans.pdf"
+    "answer_key": "#"
   },
   {
     "id": "m126mid1spr2026",
@@ -19,7 +19,7 @@
     "instructor": "Staff",
     "topics": ["power series", "Taylor series", "radius of convergence", "interval of convergence", "Maclaurin series", "Taylor polynomials"],
     "pdf": "exams/m126mid1Spr2026.pdf",
-    "answer_key": "exams/m126mid1Spr2026Ans.pdf"
+    "answer_key": "#"
   },
   {
     "id": "m126finalspr2025",
@@ -193,7 +193,7 @@
     "quarter": "Spring",
     "year": 2025,
     "instructor": "Staff",
-    "topics": ["integration by parts", "partial fractions", "improper integrals", "comparison test", "FTC", "net change", "area between curves", "volumes of revolution"],
+    "topics": ["integration by parts", "partial fractions", "improper integrals", "comparison test", "FTC", "area between curves", "volumes of revolution", "FTC part 2"],
     "pdf": "exams/m125finalSpr2025.pdf",
     "answer_key": "exams/m125finalSpr2025Ans.pdf"
   },
@@ -204,7 +204,7 @@
     "quarter": "Winter",
     "year": 2025,
     "instructor": "Staff",
-    "topics": ["partial fractions", "trig substitution", "integration by parts", "u-substitution", "FTC", "net change", "sequences", "series"],
+    "topics": ["partial fractions", "trig substitution", "integration by parts", "u-substitution", "FTC", "net change", "sequences", "series", "improper integrals"],
     "pdf": "exams/m125finalWin2025.pdf",
     "answer_key": "exams/m125finalWin2025Ans.pdf"
   },
@@ -284,5 +284,93 @@
     "topics": ["integration by parts", "trig integrals", "trig substitution", "FTC", "net change", "area between curves", "volumes of revolution", "work", "center of mass"],
     "pdf": "exams/m125finalWin2022.pdf",
     "answer_key": "exams/m125finalWin2022Ans.pdf"
+  },
+  {
+    "id": "m125mid1aut2024",
+    "course": "Math 125",
+    "type": "Midterm 1",
+    "quarter": "Autumn",
+    "year": 2024,
+    "instructor": "Staff",
+    "topics": ["u-substitution", "FTC", "definite integrals", "Riemann sums", "area between curves", "net change"],
+    "pdf": "exams/m125mid1Aut2024.pdf",
+    "answer_key": "#"
+  },
+  {
+    "id": "m125mid1aut2023",
+    "course": "Math 125",
+    "type": "Midterm 1",
+    "quarter": "Autumn",
+    "year": 2023,
+    "instructor": "Staff",
+    "topics": ["u-substitution", "FTC", "definite integrals", "Riemann sums", "area between curves", "net change"],
+    "pdf": "exams/m125mid1Aut2023.pdf",
+    "answer_key": "#"
+  },
+  {
+    "id": "m125mid1win2023",
+    "course": "Math 125",
+    "type": "Midterm 1",
+    "quarter": "Winter",
+    "year": 2023,
+    "instructor": "Staff",
+    "topics": ["u-substitution", "FTC", "definite integrals", "Riemann sums", "area between curves", "net change"],
+    "pdf": "exams/m125mid1Win2023.pdf",
+    "answer_key": "#"
+  },
+  {
+    "id": "m125mid1win2019",
+    "course": "Math 125",
+    "type": "Midterm 1",
+    "quarter": "Winter",
+    "year": 2019,
+    "instructor": "Staff",
+    "topics": ["u-substitution", "FTC", "definite integrals", "Riemann sums", "area between curves", "volumes of revolution", "net change"],
+    "pdf": "exams/m125mid1Win2019.pdf",
+    "answer_key": "#"
+  },
+  {
+    "id": "m125mid2win2019",
+    "course": "Math 125",
+    "type": "Midterm 2",
+    "quarter": "Winter",
+    "year": 2019,
+    "instructor": "Staff",
+    "topics": ["partial fractions", "trig substitution", "trig integrals", "improper integrals", "integration by parts", "work", "volumes of revolution", "Simpson's rule"],
+    "pdf": "exams/m125mid2Win2019.pdf",
+    "answer_key": "#"
+  },
+  {
+    "id": "m125mid1win2018",
+    "course": "Math 125",
+    "type": "Midterm 1",
+    "quarter": "Winter",
+    "year": 2018,
+    "instructor": "Staff",
+    "topics": ["u-substitution", "FTC", "definite integrals", "area between curves", "volumes of revolution", "net change"],
+    "pdf": "exams/m125mid1Win2018.pdf",
+    "answer_key": "#"
+  },
+  {
+    "id": "m125mid2win2018",
+    "course": "Math 125",
+    "type": "Midterm 2",
+    "quarter": "Winter",
+    "year": 2018,
+    "instructor": "Staff",
+    "topics": ["partial fractions", "trig substitution", "trig integrals", "improper integrals", "integration by parts", "average value", "work", "volumes of revolution"],
+    "pdf": "exams/m125mid2Win2018.pdf",
+    "answer_key": "#"
+  },
+  {
+    "id": "m125mid2aut2017",
+    "course": "Math 125",
+    "type": "Midterm 2",
+    "quarter": "Autumn",
+    "year": 2017,
+    "instructor": "Staff",
+    "topics": ["partial fractions", "integration by parts", "trig substitution", "trig integrals", "improper integrals", "Simpson's rule", "work"],
+    "pdf": "exams/m125mid2Aut2017.pdf",
+    "answer_key": "#"
   }
 ]
