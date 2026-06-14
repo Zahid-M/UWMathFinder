@@ -9,18 +9,22 @@ final exams for hours"? And then we realized we could actually make this happen 
 
 Together, we amalgamated a database of dozens, if not hundreds, of final exams from MATH 120, 124, 125, and 126, and we placed them
 all in one place. The tags underneath each exam, as can be seen in the image below, showcase the topics and concepts that the exam
-tested. 
+tested.
+
+
 <img width="784" height="139" alt="image" src="https://github.com/user-attachments/assets/fac512fb-a3e7-4241-99bb-4ca77b218abb" />
 
 
 Additionally, we also implemented sorting features and filters that could allow students to search up the specific topic they want (which
 can be seen in the image below). 
 
+
 <img width="1422" height="675" alt="image" src="https://github.com/user-attachments/assets/463b12d8-fbe2-4c2e-9f81-536db5cef917" />
 
 
 Students also have the ability to apply multiple filters to further narrow their search. Lets say someone wanted MATH 126 Midterm 1 exams
 only. Here's the following search filter that they would apply. 
+
 
 <img width="1422" height="584" alt="image" src="https://github.com/user-attachments/assets/c769ea48-028c-4a91-8555-afee9d7004e3" />
 
