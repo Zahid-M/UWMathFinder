@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UW Math Exam Finder</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/7.0.0/fuse.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0a0a0f;
+      --surface: #12111a;
+      --surface2: #1a1826;
+      --border: #2e2a42;
+      --accent: #b197fc;
+      --accent-dim: rgba(177,151,252,0.12);
+      --accent2: #f5c518;
+      --text: #e8e4f0;
+      --muted: #6e6a82;
+      --tag-bg: #1e1a2e;
+      --tag-text: #c4b5fd;
+      --gold: #f5c518;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', sans-serif;
+      font-size: 15px;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    main { flex: 1; }
+
+    /* HEADER */
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+      position: sticky;
+      top: 0;
+      background: rgba(10,10,15,0.93);
+      backdrop-filter: blur(12px);
+      z-index: 100;
+    }
+
+    .logo {
+      font-family: 'IBM Plex Mono', monospace;
+      font-weight: 600;
+      font-size: 1rem;
+      color: var(--accent);
+      letter-spacing: -0.02em;
+    }
+    .logo span { color: var(--gold); }
+
+    .header-badge {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.7rem;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
+    /* HERO */
+    .hero {
+      padding: 4rem 2rem 2.5rem;
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    .hero-eyebrow {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.72rem;
+      color: var(--gold);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+    }
+
+    .hero h1 {
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      font-weight: 600;
+      line-height: 1.15;
+      letter-spacing: -0.03em;
+      margin-bottom: 0.75rem;
+    }
+
+    .hero h1 em {
+      font-style: normal;
+      color: var(--accent);
+    }
+
+    .hero-sub {
+      color: var(--muted);
+      font-size: 0.95rem;
+      max-width: 520px;
+    }
+
+    /* SEARCH BAR */
+    .search-wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 2rem 1.5rem;
+    }
+
+    .search-box {
+      display: flex;
+      align-items: center;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 0 1rem;
+      transition: border-color 0.15s;
+    }
+
+    .search-box:focus-within {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px rgba(177,151,252,0.1);
+    }
+
+    .search-icon {
+      color: var(--muted);
+      font-size: 1rem;
+      margin-right: 0.6rem;
+      flex-shrink: 0;
+    }
+
+    .search-input {
+      flex: 1;
+      background: none;
+      border: none;
+      outline: none;
+      color: var(--text);
+      font-size: 1rem;
+      font-family: 'Inter', sans-serif;
+      padding: 0.85rem 0;
+    }
+
+    .search-input::placeholder { color: var(--muted); }
+
+    .clear-btn {
+      background: none;
+      border: none;
+      color: var(--muted);
+      cursor: pointer;
+      padding: 4px;
+      border-radius: 4px;
+      font-size: 1rem;
+      line-height: 1;
+      display: none;
+    }
+    .clear-btn.visible { display: block; }
+    .clear-btn:hover { color: var(--text); }
+
+    /* FILTERS */
+    .filters-wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 2rem 2rem;
+      display: flex;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .filter-label {
+      font-size: 0.75rem;
+      color: var(--muted);
+      font-family: 'IBM Plex Mono', monospace;
+      white-space: nowrap;
+    }
+
+    select {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 7px;
+      padding: 0.45rem 2rem 0.45rem 0.75rem;
+      font-size: 0.85rem;
+      font-family: 'Inter', sans-serif;
+      cursor: pointer;
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%236e6a82' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 0.6rem center;
+      transition: border-color 0.15s;
+    }
+
+    select:focus { outline: none; border-color: var(--accent); }
+
+    .reset-btn {
+      background: none;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      border-radius: 7px;
+      padding: 0.45rem 0.9rem;
+      font-size: 0.8rem;
+      cursor: pointer;
+      font-family: 'Inter', sans-serif;
+      transition: all 0.15s;
+    }
+    .reset-btn:hover { border-color: var(--accent); color: var(--accent); }
+
+    /* RESULTS INFO */
+    .results-info {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 2rem 1rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+      font-family: 'IBM Plex Mono', monospace;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .results-count {
+      color: var(--accent);
+      font-weight: 500;
+    }
+
+    /* EXAM CARDS */
+    .cards-wrap {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 2rem 4rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.1rem 1.4rem;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 1rem;
+      transition: border-color 0.15s, background 0.15s;
+    }
+
+    .card:hover {
+      border-color: var(--accent);
+      background: var(--surface2);
+    }
+
+    .card-left { flex: 1; min-width: 0; }
+
+    .card-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      margin-bottom: 0.4rem;
+      flex-wrap: wrap;
+    }
+
+    .course-badge {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 4px;
+      letter-spacing: 0.04em;
+    }
+
+    .badge-120 { background: rgba(245,197,24,0.15); color: var(--gold); }
+    .badge-124 { background: rgba(177,151,252,0.15); color: #c4b5fd; }
+    .badge-125 { background: rgba(177,151,252,0.25); color: var(--accent); }
+    .badge-126 { background: rgba(245,197,24,0.25); color: var(--gold); }
+
+    .exam-type-badge {
+      font-size: 0.72rem;
+      color: var(--muted);
+      background: rgba(110,106,130,0.1);
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-family: 'IBM Plex Mono', monospace;
+    }
+
+    .card-title {
+      font-weight: 500;
+      font-size: 0.95rem;
+      margin-bottom: 0.45rem;
+      color: var(--text);
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.35rem;
+    }
+
+    .tag {
+      background: var(--tag-bg);
+      color: var(--tag-text);
+      font-size: 0.7rem;
+      padding: 2px 8px;
+      border-radius: 100px;
+      font-family: 'IBM Plex Mono', monospace;
+    }
+
+    .card-right {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      flex-shrink: 0;
+      align-items: flex-end;
+    }
+
+    .quarter-label {
+      font-size: 0.72rem;
+      color: var(--muted);
+      font-family: 'IBM Plex Mono', monospace;
+      white-space: nowrap;
+    }
+
+    .btn-row {
+      display: flex;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .view-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      background: var(--accent-dim);
+      color: var(--accent);
+      border: 1px solid rgba(177,151,252,0.25);
+      border-radius: 7px;
+      padding: 0.4rem 0.85rem;
+      font-size: 0.8rem;
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+
+    .view-btn:hover {
+      background: rgba(177,151,252,0.2);
+      border-color: var(--accent);
+    }
+
+    .key-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      background: rgba(245,197,24,0.08);
+      color: var(--gold);
+      border: 1px solid rgba(245,197,24,0.25);
+      border-radius: 7px;
+      padding: 0.4rem 0.85rem;
+      font-size: 0.8rem;
+      font-family: 'Inter', sans-serif;
+      font-weight: 500;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+
+    .key-btn:hover {
+      background: rgba(245,197,24,0.15);
+      border-color: var(--gold);
+    }
+
+    /* EMPTY STATE */
+    .empty {
+      max-width: 860px;
+      margin: 2rem auto;
+      padding: 3rem 2rem;
+      text-align: center;
+      border: 1px dashed var(--border);
+      border-radius: 12px;
+      color: var(--muted);
+    }
+
+    .empty-icon { font-size: 2rem; margin-bottom: 0.75rem; }
+    .empty h3 { font-size: 1rem; font-weight: 500; color: var(--text); margin-bottom: 0.5rem; }
+    .empty p { font-size: 0.85rem; }
+
+    /* SUBMIT BANNER */
+    .submit-banner {
+      max-width: 860px;
+      margin: 0 auto 1.5rem;
+      padding: 0 2rem;
+    }
+
+    .submit-inner {
+      background: linear-gradient(135deg, rgba(177,151,252,0.07), rgba(245,197,24,0.05));
+      border: 1px solid rgba(177,151,252,0.2);
+      border-radius: 10px;
+      padding: 1rem 1.4rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .submit-text { font-size: 0.85rem; color: var(--muted); }
+    .submit-text strong { color: var(--text); }
+
+    .submit-link {
+      font-size: 0.8rem;
+      color: var(--accent);
+      text-decoration: none;
+      font-family: 'IBM Plex Mono', monospace;
+      border: 1px solid rgba(177,151,252,0.25);
+      padding: 0.35rem 0.85rem;
+      border-radius: 6px;
+      transition: all 0.15s;
+      white-space: nowrap;
+    }
+    .submit-link:hover { background: var(--accent-dim); }
+
+    /* FOOTER */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 1.5rem 2rem;
+      max-width: 860px;
+      margin: 0 auto;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+
+    .footer-left {
+      font-size: 0.75rem;
+      color: var(--muted);
+      font-family: 'IBM Plex Mono', monospace;
+    }
+
+    .footer-authors {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .footer-author {
+      font-size: 0.75rem;
+      color: var(--accent);
+      text-decoration: none;
+      font-family: 'IBM Plex Mono', monospace;
+      transition: color 0.15s;
+    }
+
+    .footer-author:hover { color: var(--gold); }
+
+    /* Highlight match */
+    mark {
+      background: rgba(245,197,24,0.25);
+      color: var(--gold);
+      border-radius: 2px;
+      padding: 0 2px;
+    }
+
+    @media (max-width: 600px) {
+      header { padding: 0 1rem; }
+      .hero, .search-wrap, .filters-wrap, .results-info, .cards-wrap, .submit-banner { padding-left: 1rem; padding-right: 1rem; }
+      .card { flex-direction: column; }
+      .card-right { flex-direction: row; align-items: center; justify-content: space-between; width: 100%; }
+      footer { padding: 1.5rem 1rem; flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">UW<span>Math</span>Finder</div>
+  <div class="header-badge">12X Series · v0.4</div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-eyebrow">University of Washington · Mathematics</div>
+    <h1>Find past <em>Math 12X</em><br/>exams. Fast.</h1>
+    <p class="hero-sub">Search by topic, filter by course and quarter. Every midterm and final in one place.</p>
+  </section>
+
+  <div class="search-wrap">
+    <div class="search-box">
+      <span class="search-icon">⌕</span>
+      <input class="search-input" id="searchInput" type="text" placeholder="Search by topic, e.g. &quot;Taylor series&quot;, &quot;chain rule&quot;…" autocomplete="off" />
+      <button class="clear-btn" id="clearBtn" aria-label="Clear search">✕</button>
+    </div>
+  </div>
+
+  <div class="filters-wrap">
+    <span class="filter-label">Filter:</span>
+    <select id="courseFilter">
+      <option value="">All Courses</option>
+      <option value="Math 120">Math 120</option>
+      <option value="Math 124">Math 124</option>
+      <option value="Math 125">Math 125</option>
+      <option value="Math 126">Math 126</option>
+    </select>
+    <select id="typeFilter">
+      <option value="">All Exam Types</option>
+      <option value="Midterm 1">Midterm 1</option>
+      <option value="Midterm 2">Midterm 2</option>
+      <option value="Final">Final</option>
+    </select>
+    <select id="quarterFilter">
+      <option value="">All Quarters</option>
+      <option value="Autumn">Autumn</option>
+      <option value="Winter">Winter</option>
+      <option value="Spring">Spring</option>
+      <option value="Summer">Summer</option>
+    </select>
+    <button class="reset-btn" id="resetBtn">Reset</button>
+  </div>
+
+  <div class="results-info">
+    <span id="resultsText">Showing <span class="results-count" id="resultsCount">0</span> exams</span>
+  </div>
+
+  <div class="submit-banner">
+    <div class="submit-inner">
+      <p class="submit-text"><strong>Have an exam not listed here?</strong> Help build the database for future Huskies.</p>
+      <a href="mailto:yourname@uw.edu?subject=Exam+Submission" class="submit-link">+ Submit an exam</a>
+    </div>
+  </div>
+
+  <div class="cards-wrap" id="cardsWrap"></div>
+</main>
+
+<footer>
+  <div class="footer-left">UWMathFinder · built for Huskies</div>
+  <div class="footer-authors">
+    <a class="footer-author" href="https://www.linkedin.com/in/sssaaaddd/" target="_blank" rel="noopener">Saad Ahmed</a>
+    <a class="footer-author" href="https://www.linkedin.com/in/zahid-m-5a9a11320/" target="_blank" rel="noopener">Zahid Mannan</a>
+  </div>
+</footer>
+
+<script>
+// ─────────────────────────────────────────────
+// STATE — loaded from exams.json at runtime
+// To add exams: edit exams.json, never this file
+// ─────────────────────────────────────────────
+let EXAMS = [];
+let fuse  = null;
+
+// ─────────────────────────────────────────────
+// DOM REFS
+// ─────────────────────────────────────────────
+const searchInput   = document.getElementById('searchInput');
+const clearBtn      = document.getElementById('clearBtn');
+const courseFilter  = document.getElementById('courseFilter');
+const typeFilter    = document.getElementById('typeFilter');
+const quarterFilter = document.getElementById('quarterFilter');
+const resetBtn      = document.getElementById('resetBtn');
+const cardsWrap     = document.getElementById('cardsWrap');
+const resultsCount  = document.getElementById('resultsCount');
+
+// ─────────────────────────────────────────────
+// RENDER
+// ─────────────────────────────────────────────
+function courseClass(course) {
+  if (course.includes('120')) return 'badge-120';
+  if (course.includes('124')) return 'badge-124';
+  if (course.includes('125')) return 'badge-125';
+  if (course.includes('126')) return 'badge-126';
+  return 'badge-124';
+}
+
+function renderCards(exams, query) {
+  resultsCount.textContent = exams.length;
+
+  if (exams.length === 0) {
+    cardsWrap.innerHTML = `
+      <div class="empty">
+        <div class="empty-icon">🔭</div>
+        <h3>No exams found</h3>
+        <p>Try a different keyword or reset your filters.</p>
+      </div>`;
+    return;
+  }
+
+  cardsWrap.innerHTML = exams.map(exam => {
+    const title = `${exam.course}: ${exam.type}`;
+    const pdfHref = exam.pdf && exam.pdf !== '#' ? exam.pdf : null;
+    const keyHref = exam.answer_key && exam.answer_key !== '#' ? exam.answer_key : null;
+
+    return `
+    <div class="card">
+      <div class="card-left">
+        <div class="card-meta">
+          <span class="course-badge ${courseClass(exam.course)}">${exam.course}</span>
+          <span class="exam-type-badge">${exam.type}</span>
+        </div>
+        <div class="card-title">${title}</div>
+        <div class="tags">
+          ${exam.topics.map(t => `<span class="tag">${t}</span>`).join('')}
+        </div>
+      </div>
+      <div class="card-right">
+        <span class="quarter-label">${exam.quarter} ${exam.year}</span>
+        <div class="btn-row">
+          ${pdfHref
+            ? `<a class="view-btn" href="${pdfHref}" target="_blank" rel="noopener">↗ Exam</a>`
+            : `<span class="view-btn" style="opacity:0.4;cursor:default;">Exam PDF coming</span>`}
+          ${keyHref
+            ? `<a class="key-btn" href="${keyHref}" target="_blank" rel="noopener">✦ Answer Key</a>`
+            : `<span class="key-btn" style="opacity:0.4;cursor:default;">Key coming</span>`}
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// ─────────────────────────────────────────────
+// FILTER + SEARCH LOGIC
+// ─────────────────────────────────────────────
+function getFiltered() {
+  const q       = searchInput.value.trim();
+  const course  = courseFilter.value;
+  const type    = typeFilter.value;
+  const quarter = quarterFilter.value;
+
+  let results = q.length >= 2
+    ? fuse.search(q).map(r => r.item)
+    : [...EXAMS];
+
+  if (course)  results = results.filter(e => e.course === course);
+  if (type)    results = results.filter(e => e.type === type);
+  if (quarter) results = results.filter(e => e.quarter === quarter);
+
+  if (!q) {
+    results.sort((a, b) => b.year - a.year || a.course.localeCompare(b.course));
+  }
+
+  return results;
+}
+
+function update() {
+  clearBtn.classList.toggle('visible', searchInput.value.length > 0);
+  renderCards(getFiltered(), searchInput.value.trim());
+}
+
+// ─────────────────────────────────────────────
+// EVENT LISTENERS
+// ─────────────────────────────────────────────
+searchInput.addEventListener('input', update);
+courseFilter.addEventListener('change', update);
+typeFilter.addEventListener('change', update);
+quarterFilter.addEventListener('change', update);
+
+clearBtn.addEventListener('click', () => {
+  searchInput.value = '';
+  update();
+  searchInput.focus();
+});
+
+resetBtn.addEventListener('click', () => {
+  searchInput.value = '';
+  courseFilter.value = '';
+  typeFilter.value = '';
+  quarterFilter.value = '';
+  update();
+});
+
+// ─────────────────────────────────────────────
+// INIT — fetch exams.json and boot the app
+// To add/update exams, only edit exams.json
+// ─────────────────────────────────────────────
+async function init() {
+  cardsWrap.innerHTML = `
+    <div class="empty">
+      <div class="empty-icon">⏳</div>
+      <h3>Loading exams...</h3>
+      <p>Fetching the database.</p>
+    </div>`;
+
+  try {
+    const res = await fetch("exams.json");
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    EXAMS = await res.json();
+
+    EXAMS = EXAMS.filter(e => !e.is_key);
+
+    fuse = new Fuse(EXAMS, {
+      keys: [
+        { name: 'topics', weight: 2 },
+        { name: 'course', weight: 1 },
+        { name: 'type',   weight: 0.5 },
+      ],
+      threshold: 0.35,
+      includeScore: true,
+      useExtendedSearch: false,
+      minMatchCharLength: 2,
+    });
+
+    update();
+
+  } catch (err) {
+    cardsWrap.innerHTML = `
+      <div class="empty">
+        <div class="empty-icon">⚠️</div>
+        <h3>Could not load exams</h3>
+        <p>Make sure <code>exams.json</code> is in the same folder and you're running a local server (<code>python3 -m http.server</code>), not opening the file directly.</p>
+      </div>`;
+    resultsCount.textContent = '0';
+    console.error('Failed to load exams.json:', err);
+  }
+}
+
+init();
+</script>
+</body>
+</html>
