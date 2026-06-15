@@ -1,4 +1,4 @@
-Welcome to [UWMathFinder!]([url](https://sigma-works.github.io/UWMathFinder/))
+Welcome to [https://sigma-works.github.io/UWMathFinder/](UWMathFinder)!
 
 This project was designed by Saad and Zahid, two UW students who finished up the Math 12X series and thought, "Hey, we can make this better!"
 We saw how our professors (and fellow students!) would have a tough time finding a specific topic in an exam series in class to showcase
