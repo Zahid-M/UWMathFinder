@@ -15,7 +15,7 @@
       "Taylor polynomials"
     ],
     "pdf": "exams/m126mid1Spr2026.pdf",
-    "answer_key": "exams/m126mid1Spr2026Ans.pdf"
+    "answer_key": "exams/m126mid1spr2026Ans.pdf"
   },
   {
     "id": "m126mid2spr2026",
@@ -35,7 +35,7 @@
       "curvature"
     ],
     "pdf": "exams/m126mid2Spr2026.pdf",
-    "answer_key": "exams/m126mid2Spr2026Ans.pdf"
+    "answer_key": "exams/m126mid2spr2026Ans.pdf"
   },
   {
     "id": "m124finalaut2025",
@@ -57,7 +57,7 @@
       "MVT"
     ],
     "pdf": "exams/m124finalAut2025.pdf",
-    "answer_key": "exams/m124finalAut2025Ans.pdf"
+    "answer_key": "exams/m124finalaut2025Ans.pdf"
   },
   {
     "id": "m124finalwin2025",
@@ -68,18 +68,18 @@
     "instructor": "Staff",
     "topics": [
       "limits",
-      "L'Hopital's rule",
       "derivatives",
+      "chain rule",
       "implicit differentiation",
-      "linear approximation",
       "parametric curves",
       "related rates",
       "optimization",
       "curve sketching",
+      "MVT",
       "antiderivatives"
     ],
     "pdf": "exams/m124finalWin2025.pdf",
-    "answer_key": "exams/m124finalWin2025Ans.pdf"
+    "answer_key": "exams/m124finalwin2025Ans.pdf"
   },
   {
     "id": "m124mid1aut2025",
@@ -95,11 +95,11 @@
       "product rule",
       "quotient rule",
       "chain rule",
-      "tangent lines",
-      "differentiability"
+      "linear approximation",
+      "IVT"
     ],
     "pdf": "exams/m124mid1Aut2025.pdf",
-    "answer_key": "exams/m124mid1Aut2025Ans.pdf"
+    "answer_key": "exams/m124mid1aut2025Ans.pdf"
   },
   {
     "id": "m124mid1win2025",
@@ -112,13 +112,14 @@
       "limits",
       "continuity",
       "derivatives",
-      "differentiability",
-      "tangent lines",
-      "one-sided limits",
-      "IVT"
+      "product rule",
+      "quotient rule",
+      "chain rule",
+      "IVT",
+      "squeeze theorem"
     ],
     "pdf": "exams/m124mid1Win2025.pdf",
-    "answer_key": "exams/m124mid1Win2025Ans.pdf"
+    "answer_key": "exams/m124mid1win2025Ans.pdf"
   },
   {
     "id": "m124mid2aut2025",
@@ -129,15 +130,14 @@
     "instructor": "Staff",
     "topics": [
       "derivatives",
-      "chain rule",
       "implicit differentiation",
-      "linear approximation",
+      "logarithmic differentiation",
       "parametric curves",
-      "related rates",
-      "optimization"
+      "linear approximation",
+      "related rates"
     ],
     "pdf": "exams/m124mid2Aut2025.pdf",
-    "answer_key": "exams/m124mid2Aut2025Ans.pdf"
+    "answer_key": "exams/m124mid2aut2025Ans.pdf"
   },
   {
     "id": "m124mid2win2025",
@@ -149,14 +149,13 @@
     "topics": [
       "derivatives",
       "implicit differentiation",
-      "linear approximation",
       "parametric curves",
+      "linear approximation",
       "related rates",
-      "chain rule",
-      "tangent lines"
+      "logarithmic differentiation"
     ],
     "pdf": "exams/m124mid2Win2025.pdf",
-    "answer_key": "exams/m124mid2Win2025Ans.pdf"
+    "answer_key": "exams/m124mid2win2025Ans.pdf"
   },
   {
     "id": "m125finalaut2025",
@@ -176,7 +175,7 @@
       "FTC"
     ],
     "pdf": "exams/m125finalAut2025.pdf",
-    "answer_key": "exams/m125finalAut2025Ans.pdf"
+    "answer_key": "exams/m125finalaut2025Ans.pdf"
   },
   {
     "id": "m125finalspr2025",
@@ -193,10 +192,10 @@
       "FTC",
       "area between curves",
       "volumes of revolution",
-      "FTC part 2"
+      "arc length"
     ],
     "pdf": "exams/m125finalSpr2025.pdf",
-    "answer_key": "exams/m125finalSpr2025Ans.pdf"
+    "answer_key": "exams/m125finalspr2025Ans.pdf"
   },
   {
     "id": "m125finalwin2025",
@@ -217,7 +216,7 @@
       "improper integrals"
     ],
     "pdf": "exams/m125finalWin2025.pdf",
-    "answer_key": "exams/m125finalWin2025Ans.pdf"
+    "answer_key": "exams/m125finalwin2025Ans.pdf"
   },
   {
     "id": "m126finalspr2025",
@@ -239,7 +238,7 @@
       "space curves"
     ],
     "pdf": "exams/m126finalSpr2025.pdf",
-    "answer_key": "exams/m126finalSpr2025Ans.pdf"
+    "answer_key": "exams/m126finalspr2025Ans.pdf"
   },
   {
     "id": "m126finalwin2025",
@@ -261,51 +260,7 @@
       "reversing order of integration"
     ],
     "pdf": "exams/m126finalWin2025.pdf",
-    "answer_key": "exams/m126finalWin2025Ans.pdf"
-  },
-  {
-    "id": "m126finalspr2025",
-    "course": "Math 126",
-    "type": "Final",
-    "quarter": "Spring",
-    "year": 2025,
-    "instructor": "Staff",
-    "topics": [
-      "vectors",
-      "dot product",
-      "cross product",
-      "lines and planes",
-      "quadric surfaces",
-      "vector functions",
-      "partial derivatives",
-      "linearization",
-      "tangent planes",
-      "space curves"
-    ],
-    "pdf": "exams/m126finalSpr2025.pdf",
-    "answer_key": "exams/m126finalSpr2025Ans.pdf"
-  },
-  {
-    "id": "m126finalwin2025",
-    "course": "Math 126",
-    "type": "Final",
-    "quarter": "Winter",
-    "year": 2025,
-    "instructor": "Staff",
-    "topics": [
-      "vectors",
-      "cross product",
-      "lines and planes",
-      "quadric surfaces",
-      "space curves",
-      "tangent planes",
-      "partial derivatives",
-      "optimization",
-      "double integrals",
-      "reversing order of integration"
-    ],
-    "pdf": "exams/m126finalWin2025.pdf",
-    "answer_key": "exams/m126finalWin2025Ans.pdf"
+    "answer_key": "exams/m126finalwin2025Ans.pdf"
   },
   {
     "id": "m126mid1spr2025",
@@ -325,7 +280,7 @@
       "parametric equations"
     ],
     "pdf": "exams/m126mid1Spr2025.pdf",
-    "answer_key": "exams/m126mid1Spr2025Ans.pdf"
+    "answer_key": "exams/m126mid1spr2025Ans.pdf"
   },
   {
     "id": "m126mid2spr2025",
@@ -335,15 +290,15 @@
     "year": 2025,
     "instructor": "Staff",
     "topics": [
-      "critical points",
-      "derivatives",
-      "distance",
-      "implicit differentiation",
-      "linear approximation",
-      "saddle points"
+      "Taylor series",
+      "power series",
+      "radius of convergence",
+      "Maclaurin series",
+      "Taylor polynomials",
+      "error bounds"
     ],
     "pdf": "exams/m126mid2Spr2025.pdf",
-    "answer_key": "exams/m126mid2Spr2025Ans.pdf"
+    "answer_key": "exams/m126mid2spr2025Ans.pdf"
   },
   {
     "id": "m120finalspr2024",
@@ -353,15 +308,18 @@
     "year": 2024,
     "instructor": "Staff",
     "topics": [
-      "parametric equations",
-      "speed",
-      "area functions",
-      "linear-to-linear rational function of time",
-      "rational modeling",
-      "exponential modeling"
+      "functions",
+      "domain and range",
+      "exponential functions",
+      "logarithms",
+      "trigonometry",
+      "unit circle",
+      "sinusoidal models",
+      "inverse functions",
+      "piecewise functions"
     ],
     "pdf": "exams/m120finalSpr2024.pdf",
-    "answer_key": "exams/m120finalSpr2024Ans.pdf"
+    "answer_key": "exams/m120finalspr2024Ans.pdf"
   },
   {
     "id": "m124finalaut2024",
@@ -371,13 +329,19 @@
     "year": 2024,
     "instructor": "Staff",
     "topics": [
-      "derivatives",
-      "functions",
       "limits",
-      "parametric equations"
+      "L'Hopital's rule",
+      "derivatives",
+      "implicit differentiation",
+      "parametric curves",
+      "related rates",
+      "optimization",
+      "curve sketching",
+      "MVT",
+      "antiderivatives"
     ],
     "pdf": "exams/m124finalAut2024.pdf",
-    "answer_key": "exams/m124finalAut2024Ans.pdf"
+    "answer_key": "exams/m124finalaut2024Ans.pdf"
   },
   {
     "id": "m124finalspr2024",
@@ -387,15 +351,18 @@
     "year": 2024,
     "instructor": "Staff",
     "topics": [
-      "functions",
       "limits",
-      "graphing functions and limits",
-      "continuity",
+      "derivatives",
+      "chain rule",
+      "implicit differentiation",
+      "parametric curves",
+      "related rates",
       "optimization",
-      "parametric equations"
+      "curve sketching",
+      "linear approximation"
     ],
     "pdf": "exams/m124finalSpr2024.pdf",
-    "answer_key": "exams/m124finalSpr2024Ans.pdf"
+    "answer_key": "exams/m124finalspr2024Ans.pdf"
   },
   {
     "id": "m124finalwin2024",
@@ -405,15 +372,18 @@
     "year": 2024,
     "instructor": "Staff",
     "topics": [
-      "derivatives",
-      "functions",
       "limits",
+      "derivatives",
+      "chain rule",
+      "implicit differentiation",
+      "parametric curves",
+      "related rates",
       "optimization",
-      "graphing functions and limits",
-      "continuity"
+      "MVT",
+      "antiderivatives"
     ],
     "pdf": "exams/m124finalWin2024.pdf",
-    "answer_key": "exams/m124finalWin2024Ans.pdf"
+    "answer_key": "exams/m124finalwin2024Ans.pdf"
   },
   {
     "id": "m124mid1aut2024",
@@ -424,12 +394,15 @@
     "instructor": "Staff",
     "topics": [
       "limits",
-      "continuous functions",
-      "tangent lines",
-      "intersections of tangent lines with curves"
+      "continuity",
+      "derivatives",
+      "product rule",
+      "quotient rule",
+      "chain rule",
+      "IVT"
     ],
     "pdf": "exams/m124mid1Aut2024.pdf",
-    "answer_key": "exams/m124mid1Aut2024Ans.pdf"
+    "answer_key": "exams/m124mid1aut2024Ans.pdf"
   },
   {
     "id": "m124mid1win2024",
@@ -439,14 +412,17 @@
     "year": 2024,
     "instructor": "Staff",
     "topics": [
-      "functions",
       "limits",
-      "tangent lines",
-      "limit definition of derivative",
-      "graphing functions and limits"
+      "continuity",
+      "derivatives",
+      "product rule",
+      "quotient rule",
+      "chain rule",
+      "IVT",
+      "squeeze theorem"
     ],
     "pdf": "exams/m124mid1Win2024.pdf",
-    "answer_key": "exams/m124mid1Win2024Ans.pdf"
+    "answer_key": "exams/m124mid1win2024Ans.pdf"
   },
   {
     "id": "m124mid2aut2024",
@@ -457,10 +433,14 @@
     "instructor": "Staff",
     "topics": [
       "derivatives",
-      "functions"
+      "implicit differentiation",
+      "parametric curves",
+      "related rates",
+      "logarithmic differentiation",
+      "linear approximation"
     ],
     "pdf": "exams/m124mid2Aut2024.pdf",
-    "answer_key": "exams/m124mid2Aut2024Ans.pdf"
+    "answer_key": "exams/m124mid2aut2024Ans.pdf"
   },
   {
     "id": "m124mid2win2024",
@@ -471,11 +451,14 @@
     "instructor": "Staff",
     "topics": [
       "derivatives",
-      "functions",
-      "parametric equations"
+      "implicit differentiation",
+      "parametric curves",
+      "related rates",
+      "logarithmic differentiation",
+      "tangent lines"
     ],
     "pdf": "exams/m124mid2Win2024.pdf",
-    "answer_key": "exams/m124mid2Win2024Ans.pdf"
+    "answer_key": "exams/m124mid2win2024Ans.pdf"
   },
   {
     "id": "m125finalaut2024",
@@ -496,7 +479,7 @@
       "series"
     ],
     "pdf": "exams/m125finalAut2024.pdf",
-    "answer_key": "exams/m125finalAut2024Ans.pdf"
+    "answer_key": "exams/m125finalaut2024Ans.pdf"
   },
   {
     "id": "m125finalwin2024",
@@ -513,10 +496,12 @@
       "improper integrals",
       "FTC",
       "area between curves",
-      "volumes of revolution"
+      "volumes of revolution",
+      "arc length",
+      "work"
     ],
     "pdf": "exams/m125finalWin2024.pdf",
-    "answer_key": "exams/m125finalWin2024Ans.pdf"
+    "answer_key": "exams/m125finalwin2024Ans.pdf"
   },
   {
     "id": "m125mid1aut2024",
@@ -534,7 +519,7 @@
       "net change"
     ],
     "pdf": "exams/m125mid1Aut2024.pdf",
-    "answer_key": "exams/m125mid1Aut2024Ans.pdf"
+    "answer_key": "exams/m125mid1aut2024Ans.pdf"
   },
   {
     "id": "m125mid2aut2024",
@@ -544,16 +529,16 @@
     "year": 2024,
     "instructor": "Staff",
     "topics": [
+      "partial fractions",
+      "trig substitution",
+      "integration by parts",
+      "improper integrals",
       "average value",
-      "trigonometric substitution",
-      "trigonometric integration",
-      "integration by-parts",
-      "area",
-      "work to pump tank"
-      
+      "work",
+      "volumes of revolution"
     ],
     "pdf": "exams/m125mid2Aut2024.pdf",
-    "answer_key": "exams/m125mid2Aut2024Ans.pdf"
+    "answer_key": "exams/m125mid2aut2024Ans.pdf"
   },
   {
     "id": "m126finalaut2024",
@@ -573,27 +558,7 @@
       "vector functions"
     ],
     "pdf": "exams/m126finalAut2024.pdf",
-    "answer_key": "exams/m126finalAut2024Ans.pdf"
-  },
-  {
-    "id": "m126finalaut2024",
-    "course": "Math 126",
-    "type": "Final",
-    "quarter": "Autumn",
-    "year": 2024,
-    "instructor": "Staff",
-    "topics": [
-      "lines and planes",
-      "quadric surfaces",
-      "tangent planes",
-      "linearization",
-      "critical points",
-      "optimization",
-      "partial derivatives",
-      "vector functions"
-    ],
-    "pdf": "exams/m126finalAut2024.pdf",
-    "answer_key": "exams/m126finalAut2024Ans.pdf"
+    "answer_key": "exams/m126finalaut2024Ans.pdf"
   },
   {
     "id": "m126finalspr2024",
@@ -614,7 +579,7 @@
       "space curves"
     ],
     "pdf": "exams/m126finalSpr2024.pdf",
-    "answer_key": "exams/m126finalSpr2024Ans.pdf"
+    "answer_key": "exams/m126finalspr2024Ans.pdf"
   },
   {
     "id": "m126finalwin2024",
@@ -635,7 +600,7 @@
       "tangent planes"
     ],
     "pdf": "exams/m126finalWin2024.pdf",
-    "answer_key": "exams/m126finalWin2024Ans.pdf"
+    "answer_key": "exams/m126finalwin2024Ans.pdf"
   },
   {
     "id": "m126mid1spr2024",
@@ -655,7 +620,7 @@
       "planes"
     ],
     "pdf": "exams/m126mid1Spr2024.pdf",
-    "answer_key": "exams/m126mid1Spr2024Ans.pdf"
+    "answer_key": "exams/m126mid1spr2024Ans.pdf"
   },
   {
     "id": "m126mid1win2024",
@@ -675,7 +640,7 @@
       "parametric equations"
     ],
     "pdf": "exams/m126mid1Win2024.pdf",
-    "answer_key": "exams/m126mid1Win2024Ans.pdf"
+    "answer_key": "exams/m126mid1win2024Ans.pdf"
   },
   {
     "id": "m126mid2win2024",
@@ -685,12 +650,16 @@
     "year": 2024,
     "instructor": "Staff",
     "topics": [
-      "critical points",
-      "saddle points",
-      "work"
+      "Taylor series",
+      "power series",
+      "Maclaurin series",
+      "radius of convergence",
+      "Taylor polynomials",
+      "error bounds",
+      "interval of convergence"
     ],
     "pdf": "exams/m126mid2Win2024.pdf",
-    "answer_key": "exams/m126mid2Win2024Ans.pdf"
+    "answer_key": "exams/m126mid2win2024Ans.pdf"
   },
   {
     "id": "m124finalaut2023",
@@ -700,13 +669,18 @@
     "year": 2023,
     "instructor": "Staff",
     "topics": [
-      "continuity",
+      "limits",
+      "L'Hopital's rule",
       "derivatives",
-      "functions",
-      "limits"
+      "implicit differentiation",
+      "parametric curves",
+      "related rates",
+      "optimization",
+      "curve sketching",
+      "MVT"
     ],
     "pdf": "exams/m124finalAut2023.pdf",
-    "answer_key": "exams/m124finalAut2023Ans.pdf"
+    "answer_key": "exams/m124finalaut2023Ans.pdf"
   },
   {
     "id": "m124finalspr2023",
@@ -716,17 +690,18 @@
     "year": 2023,
     "instructor": "Staff",
     "topics": [
+      "limits",
       "derivatives",
-      "functions",
-      "L'hospitals Rule",
-      "graphs of functions and limits",
+      "chain rule",
       "implicit differentiation",
+      "parametric curves",
+      "related rates",
+      "optimization",
       "linear approximation",
-      "speed, velocity, distance, time, kinematics",
-      "optimization"
+      "curve sketching"
     ],
     "pdf": "exams/m124finalSpr2023.pdf",
-    "answer_key": "exams/m124finalSpr2023Ans.pdf"
+    "answer_key": "exams/m124finalspr2023Ans.pdf"
   },
   {
     "id": "m124finalwin2023",
@@ -736,14 +711,18 @@
     "year": 2023,
     "instructor": "Staff",
     "topics": [
-      "derivatives",
-      "functions",
       "limits",
-      "linear approximation",
-      "parametric equations"
+      "derivatives",
+      "implicit differentiation",
+      "parametric curves",
+      "related rates",
+      "optimization",
+      "curve sketching",
+      "MVT",
+      "antiderivatives"
     ],
     "pdf": "exams/m124finalWin2023.pdf",
-    "answer_key": "exams/m124finalWin2023Ans.pdf"
+    "answer_key": "exams/m124finalwin2023Ans.pdf"
   },
   {
     "id": "m124mid1aut2023",
@@ -754,13 +733,15 @@
     "instructor": "Staff",
     "topics": [
       "limits",
-      "graphs of functions and limits",
-      "L'hospitals Rule",
+      "continuity",
       "derivatives",
-      "tangent lines"
+      "product rule",
+      "quotient rule",
+      "chain rule",
+      "IVT"
     ],
     "pdf": "exams/m124mid1Aut2023.pdf",
-    "answer_key": "exams/m124mid1Aut2023Ans.pdf"
+    "answer_key": "exams/m124mid1aut2023Ans.pdf"
   },
   {
     "id": "m124mid1spr2023",
@@ -770,17 +751,17 @@
     "year": 2023,
     "instructor": "Staff",
     "topics": [
-      "distance",
-      "functions",
-      "quotient rule",
-      "product rule",
-      "chain rule",
       "limits",
-      "tangent lines",
-      "speed, distance, time"
+      "continuity",
+      "derivatives",
+      "product rule",
+      "quotient rule",
+      "chain rule",
+      "IVT",
+      "squeeze theorem"
     ],
     "pdf": "exams/m124mid1Spr2023.pdf",
-    "answer_key": "exams/m124mid1Spr2023Ans.pdf"
+    "answer_key": "exams/m124mid1spr2023Ans.pdf"
   },
   {
     "id": "m124mid1win2023",
@@ -791,16 +772,15 @@
     "instructor": "Staff",
     "topics": [
       "limits",
-      "tangent lines",
+      "continuity",
+      "derivatives",
       "product rule",
       "quotient rule",
       "chain rule",
-      "continuous limits",
-      "acceleration",
-      "points of intersection"
+      "squeeze theorem"
     ],
     "pdf": "exams/m124mid1Win2023.pdf",
-    "answer_key": "exams/m124mid1Win2023Ans.pdf"
+    "answer_key": "exams/m124mid1win2023Ans.pdf"
   },
   {
     "id": "m124mid2aut2023",
@@ -811,16 +791,14 @@
     "instructor": "Staff",
     "topics": [
       "derivatives",
-      "functions",
-      "parametric equations",
-      "chain rule",
-      "product rule",
-      "quotient rule",
-      "optimization",
-      "tangent lines"
+      "implicit differentiation",
+      "parametric curves",
+      "related rates",
+      "logarithmic differentiation",
+      "linear approximation"
     ],
     "pdf": "exams/m124mid2Aut2023.pdf",
-    "answer_key": "exams/m124mid2Aut2023Ans.pdf"
+    "answer_key": "exams/m124mid2aut2023Ans.pdf"
   },
   {
     "id": "m124mid2spr2023",
@@ -830,14 +808,15 @@
     "year": 2023,
     "instructor": "Staff",
     "topics": [
-      "linear approximation",
-      "tangent line",
-      "product rule",
-      "quotient rule",
-      "chain rule"
+      "derivatives",
+      "implicit differentiation",
+      "parametric curves",
+      "related rates",
+      "logarithmic differentiation",
+      "tangent lines"
     ],
     "pdf": "exams/m124mid2Spr2023.pdf",
-    "answer_key": "exams/m124mid2Spr2023Ans.pdf"
+    "answer_key": "exams/m124mid2spr2023Ans.pdf"
   },
   {
     "id": "m124mid2win2023",
@@ -848,12 +827,14 @@
     "instructor": "Staff",
     "topics": [
       "derivatives",
-      "functions",
-      "parametric equations",
-      "chain rule"
+      "implicit differentiation",
+      "parametric curves",
+      "related rates",
+      "logarithmic differentiation",
+      "linear approximation"
     ],
     "pdf": "exams/m124mid2Win2023.pdf",
-    "answer_key": "exams/m124mid2Win2023Ans.pdf"
+    "answer_key": "exams/m124mid2win2023Ans.pdf"
   },
   {
     "id": "m125finalspr2023",
@@ -873,7 +854,7 @@
       "convergence tests"
     ],
     "pdf": "exams/m125finalSpr2023.pdf",
-    "answer_key": "exams/m125finalSpr2023Ans.pdf"
+    "answer_key": "exams/m125finalspr2023Ans.pdf"
   },
   {
     "id": "m125finalwin2023",
@@ -894,7 +875,7 @@
       "series"
     ],
     "pdf": "exams/m125finalWin2023.pdf",
-    "answer_key": "exams/m125finalWin2023Ans.pdf"
+    "answer_key": "exams/m125finalwin2023Ans.pdf"
   },
   {
     "id": "m125mid1aut2023",
@@ -912,7 +893,7 @@
       "net change"
     ],
     "pdf": "exams/m125mid1Aut2023.pdf",
-    "answer_key": "exams/m125mid1Aut2023Ans.pdf"
+    "answer_key": "exams/m125mid1aut2023Ans.pdf"
   },
   {
     "id": "m125mid1win2023",
@@ -930,7 +911,7 @@
       "net change"
     ],
     "pdf": "exams/m125mid1Win2023.pdf",
-    "answer_key": "exams/m125mid1Win2023Ans.pdf"
+    "answer_key": "exams/m125mid1win2023Ans.pdf"
   },
   {
     "id": "m125mid2aut2023",
@@ -940,11 +921,16 @@
     "year": 2023,
     "instructor": "Staff",
     "topics": [
-      "average value",
-      "work"
+      "partial fractions",
+      "trig substitution",
+      "trig integrals",
+      "integration by parts",
+      "improper integrals",
+      "work",
+      "volumes of revolution"
     ],
     "pdf": "exams/m125mid2Aut2023.pdf",
-    "answer_key": "exams/m125mid2Aut2023Ans.pdf"
+    "answer_key": "exams/m125mid2aut2023Ans.pdf"
   },
   {
     "id": "m125mid2win2023",
@@ -954,16 +940,16 @@
     "year": 2023,
     "instructor": "Staff",
     "topics": [
-      "integration by-parts",
-      "trigonometric substitution",
-      "trigonometric integration",
+      "partial fractions",
+      "trig substitution",
+      "trig integrals",
+      "integration by parts",
       "improper integrals",
-      "Simpson's rule",
-      "leaky bucket",
-      "work"
+      "comparison test",
+      "convergence tests"
     ],
     "pdf": "exams/m125mid2Win2023.pdf",
-    "answer_key": "exams/m125mid2Win2023Ans.pdf"
+    "answer_key": "exams/m125mid2win2023Ans.pdf"
   },
   {
     "id": "m126finalaut2023",
@@ -984,7 +970,7 @@
       "space curves"
     ],
     "pdf": "exams/m126finalAut2023.pdf",
-    "answer_key": "exams/m126finalAut2023Ans.pdf"
+    "answer_key": "exams/m126finalaut2023Ans.pdf"
   },
   {
     "id": "m126finalspr2023",
@@ -1006,7 +992,7 @@
       "polar coordinates"
     ],
     "pdf": "exams/m126finalSpr2023.pdf",
-    "answer_key": "exams/m126finalSpr2023Ans.pdf"
+    "answer_key": "exams/m126finalspr2023Ans.pdf"
   },
   {
     "id": "m126finalwin2023",
@@ -1027,7 +1013,7 @@
       "partial derivatives"
     ],
     "pdf": "exams/m126finalWin2023.pdf",
-    "answer_key": "exams/m126finalWin2023Ans.pdf"
+    "answer_key": "exams/m126finalwin2023Ans.pdf"
   },
   {
     "id": "m126mid1spr2023",
@@ -1047,7 +1033,7 @@
       "parametric equations"
     ],
     "pdf": "exams/m126mid1Spr2023.pdf",
-    "answer_key": "exams/m126mid1Spr2023Ans.pdf"
+    "answer_key": "exams/m126mid1spr2023Ans.pdf"
   },
   {
     "id": "m126mid2spr2023",
@@ -1057,19 +1043,15 @@
     "year": 2023,
     "instructor": "Staff",
     "topics": [
-      "tangent planes",
-      "implicit differentiation",
-      "partial derivatives",
-      "critical points",
-      "saddle points",
-      "optimization",
-      "double integrals",
-      "reversing order of integration",
-      "polar coordinates",
-      "center of mass"
+      "Taylor series",
+      "power series",
+      "Maclaurin series",
+      "radius of convergence",
+      "Taylor polynomials",
+      "error bounds"
     ],
     "pdf": "exams/m126mid2Spr2023.pdf",
-    "answer_key": "exams/m126mid2Spr2023Ans.pdf"
+    "answer_key": "exams/m126mid2spr2023Ans.pdf"
   },
   {
     "id": "m120finalspr2022",
@@ -1080,16 +1062,16 @@
     "instructor": "Staff",
     "topics": [
       "functions",
-      "exponential models",
-      "sinusoidal functions",
+      "domain and range",
+      "exponential functions",
       "logarithms",
-      "inverse functions",
       "trigonometry",
-      "linear-to-linear models",
-      "piecewise functions"
+      "sinusoidal models",
+      "inverse functions",
+      "function composition"
     ],
     "pdf": "exams/m120finalSpr2022.pdf",
-    "answer_key": "exams/m120finalSpr2022Ans.pdf"
+    "answer_key": "exams/m120finalspr2022Ans.pdf"
   },
   {
     "id": "m124finalaut2022",
@@ -1102,16 +1084,15 @@
       "limits",
       "L'Hopital's rule",
       "derivatives",
-      "chain rule",
       "implicit differentiation",
       "parametric curves",
-      "linearization",
+      "related rates",
       "optimization",
       "curve sketching",
-      "antiderivatives"
+      "MVT"
     ],
     "pdf": "exams/m124finalAut2022.pdf",
-    "answer_key": "exams/m124finalAut2022Ans.pdf"
+    "answer_key": "exams/m124finalaut2022Ans.pdf"
   },
   {
     "id": "m124finalspr2022",
@@ -1122,18 +1103,17 @@
     "instructor": "Staff",
     "topics": [
       "limits",
-      "continuity",
       "derivatives",
+      "chain rule",
       "implicit differentiation",
-      "parametric curves",
       "related rates",
       "optimization",
       "curve sketching",
-      "antiderivatives",
-      "MVT"
+      "linear approximation",
+      "antiderivatives"
     ],
     "pdf": "exams/m124finalSpr2022.pdf",
-    "answer_key": "exams/m124finalSpr2022Ans.pdf"
+    "answer_key": "exams/m124finalspr2022Ans.pdf"
   },
   {
     "id": "m124finalwin2022",
@@ -1144,18 +1124,16 @@
     "instructor": "Staff",
     "topics": [
       "limits",
-      "L'Hopital's rule",
       "derivatives",
       "implicit differentiation",
-      "linear approximation",
       "parametric curves",
       "related rates",
       "optimization",
       "curve sketching",
-      "antiderivatives"
+      "MVT"
     ],
     "pdf": "exams/m124finalWin2022.pdf",
-    "answer_key": "exams/m124finalWin2022Ans.pdf"
+    "answer_key": "exams/m124finalwin2022Ans.pdf"
   },
   {
     "id": "m124mid1aut2022",
@@ -1168,13 +1146,13 @@
       "limits",
       "continuity",
       "derivatives",
-      "differentiability",
-      "tangent lines",
-      "one-sided limits",
-      "piecewise functions"
+      "product rule",
+      "quotient rule",
+      "chain rule",
+      "IVT"
     ],
     "pdf": "exams/m124mid1Aut2022.pdf",
-    "answer_key": "exams/m124mid1Aut2022Ans.pdf"
+    "answer_key": "exams/m124mid1aut2022Ans.pdf"
   },
   {
     "id": "m124mid1spr2022",
@@ -1187,13 +1165,13 @@
       "limits",
       "continuity",
       "derivatives",
-      "differentiability",
-      "tangent lines",
-      "one-sided limits",
-      "IVT"
+      "product rule",
+      "quotient rule",
+      "chain rule",
+      "squeeze theorem"
     ],
     "pdf": "exams/m124mid1Spr2022.pdf",
-    "answer_key": "exams/m124mid1Spr2022Ans.pdf"
+    "answer_key": "exams/m124mid1spr2022Ans.pdf"
   },
   {
     "id": "m124mid1win2022",
@@ -1203,16 +1181,16 @@
     "year": 2022,
     "instructor": "Staff",
     "topics": [
-      "functions",
-      "tangent lines",
-      "trigonometry",
-      "continuous limits",
-      "definition of a derivative",
-      "graphing limits and functions",
-      "points of intersection"
+      "limits",
+      "continuity",
+      "derivatives",
+      "product rule",
+      "quotient rule",
+      "chain rule",
+      "IVT"
     ],
     "pdf": "exams/m124mid1Win2022.pdf",
-    "answer_key": "exams/m124mid1Win2022Ans.pdf"
+    "answer_key": "exams/m124mid1win2022Ans.pdf"
   },
   {
     "id": "m124mid2aut2022",
@@ -1222,21 +1200,15 @@
     "year": 2022,
     "instructor": "Staff",
     "topics": [
-      "distance",
-      "linearization",
-      "parametric equations",
-      "tangent lines",
-      "chain rule",
-      "implicit differentiation",
-      "differentiation",
       "derivatives",
-      "linear approximation",
-      "parametric equations",
-      "particle motion",
-      "speed, distance, time, acceleration"
+      "implicit differentiation",
+      "parametric curves",
+      "related rates",
+      "logarithmic differentiation",
+      "linear approximation"
     ],
     "pdf": "exams/m124mid2Aut2022.pdf",
-    "answer_key": "exams/m124mid2Aut2022Ans.pdf"
+    "answer_key": "exams/m124mid2aut2022Ans.pdf"
   },
   {
     "id": "m124mid2win2022",
@@ -1246,14 +1218,15 @@
     "year": 2022,
     "instructor": "Staff",
     "topics": [
-      "distance",
-      "functions",
-      "parametric equations",
-      "chain rule",
+      "derivatives",
+      "implicit differentiation",
+      "parametric curves",
+      "related rates",
+      "logarithmic differentiation",
       "tangent lines"
     ],
     "pdf": "exams/m124mid2Win2022.pdf",
-    "answer_key": "exams/m124mid2Win2022Ans.pdf"
+    "answer_key": "exams/m124mid2win2022Ans.pdf"
   },
   {
     "id": "m125finalaut2022",
@@ -1273,7 +1246,7 @@
       "convergence tests"
     ],
     "pdf": "exams/m125finalAut2022.pdf",
-    "answer_key": "exams/m125finalAut2022Ans.pdf"
+    "answer_key": "exams/m125finalaut2022Ans.pdf"
   },
   {
     "id": "m125finalspr2022",
@@ -1293,7 +1266,7 @@
       "volumes of revolution"
     ],
     "pdf": "exams/m125finalSpr2022.pdf",
-    "answer_key": "exams/m125finalSpr2022Ans.pdf"
+    "answer_key": "exams/m125finalspr2022Ans.pdf"
   },
   {
     "id": "m125finalwin2022",
@@ -1314,7 +1287,7 @@
       "center of mass"
     ],
     "pdf": "exams/m125finalWin2022.pdf",
-    "answer_key": "exams/m125finalWin2022Ans.pdf"
+    "answer_key": "exams/m125finalwin2022Ans.pdf"
   },
   {
     "id": "m126finalaut2022",
@@ -1335,7 +1308,7 @@
       "quadric surfaces"
     ],
     "pdf": "exams/m126finalAut2022.pdf",
-    "answer_key": "exams/m126finalAut2022Ans.pdf"
+    "answer_key": "exams/m126finalaut2022Ans.pdf"
   },
   {
     "id": "m126finalwin2022",
@@ -1357,7 +1330,7 @@
       "center of mass"
     ],
     "pdf": "exams/m126finalWin2022.pdf",
-    "answer_key": "exams/m126finalWin2022Ans.pdf"
+    "answer_key": "exams/m126finalwin2022Ans.pdf"
   },
   {
     "id": "m124finalaut2021",
@@ -1367,13 +1340,18 @@
     "year": 2021,
     "instructor": "Staff",
     "topics": [
+      "limits",
+      "L'Hopital's rule",
       "derivatives",
-      "functions",
-      "linearization",
-      "work"
+      "implicit differentiation",
+      "related rates",
+      "optimization",
+      "curve sketching",
+      "MVT",
+      "antiderivatives"
     ],
     "pdf": "exams/m124finalAut2021.pdf",
-    "answer_key": "exams/m124finalAut2021Ans.pdf"
+    "answer_key": "exams/m124finalaut2021Ans.pdf"
   },
   {
     "id": "m124mid1aut2021",
@@ -1383,12 +1361,16 @@
     "year": 2021,
     "instructor": "Staff",
     "topics": [
-      "distance",
       "limits",
-      "work"
+      "continuity",
+      "derivatives",
+      "product rule",
+      "quotient rule",
+      "chain rule",
+      "IVT"
     ],
     "pdf": "exams/m124mid1Aut2021.pdf",
-    "answer_key": "exams/m124mid1Aut2021Ans.pdf"
+    "answer_key": "exams/m124mid1aut2021Ans.pdf"
   },
   {
     "id": "m124mid2aut2021",
@@ -1399,11 +1381,14 @@
     "instructor": "Staff",
     "topics": [
       "derivatives",
-      "functions",
-      "work"
+      "implicit differentiation",
+      "related rates",
+      "parametric curves",
+      "logarithmic differentiation",
+      "linear approximation"
     ],
     "pdf": "exams/m124mid2Aut2021.pdf",
-    "answer_key": "exams/m124mid2Aut2021Ans.pdf"
+    "answer_key": "exams/m124mid2aut2021Ans.pdf"
   },
   {
     "id": "m125finalaut2021",
@@ -1413,10 +1398,18 @@
     "year": 2021,
     "instructor": "Staff",
     "topics": [
-      "work"
+      "trig integrals",
+      "integration by parts",
+      "partial fractions",
+      "FTC",
+      "area between curves",
+      "volumes of revolution",
+      "improper integrals",
+      "sequences",
+      "series"
     ],
     "pdf": "exams/m125finalAut2021.pdf",
-    "answer_key": "exams/m125finalAut2021Ans.pdf"
+    "answer_key": "exams/m125finalaut2021Ans.pdf"
   },
   {
     "id": "m126finalaut2021",
@@ -1426,13 +1419,18 @@
     "year": 2021,
     "instructor": "Staff",
     "topics": [
-      "critical points",
-      "parametric equations",
-      "vectors",
-      "work"
+      "lines and planes",
+      "quadric surfaces",
+      "space curves",
+      "curvature",
+      "tangent planes",
+      "partial derivatives",
+      "optimization",
+      "double integrals",
+      "polar coordinates"
     ],
     "pdf": "exams/m126finalAut2021.pdf",
-    "answer_key": "exams/m126finalAut2021Ans.pdf"
+    "answer_key": "exams/m126finalaut2021Ans.pdf"
   },
   {
     "id": "m125finalspr2020",
@@ -1442,11 +1440,18 @@
     "year": 2020,
     "instructor": "Staff",
     "topics": [
-      "distance",
-      "work"
+      "u-substitution",
+      "FTC",
+      "integration by parts",
+      "trig integrals",
+      "improper integrals",
+      "area between curves",
+      "volumes of revolution",
+      "sequences",
+      "series"
     ],
     "pdf": "exams/m125finalSpr2020.pdf",
-    "answer_key": "exams/m125finalSpr2020Ans.pdf"
+    "answer_key": "exams/m125finalspr2020Ans.pdf"
   },
   {
     "id": "m124finalaut2019",
@@ -1456,13 +1461,18 @@
     "year": 2019,
     "instructor": "Staff",
     "topics": [
-      "derivatives",
-      "functions",
       "limits",
-      "work"
+      "L'Hopital's rule",
+      "derivatives",
+      "implicit differentiation",
+      "related rates",
+      "optimization",
+      "curve sketching",
+      "MVT",
+      "antiderivatives"
     ],
     "pdf": "exams/m124finalAut2019.pdf",
-    "answer_key": "exams/m124finalAut2019Ans.pdf"
+    "answer_key": "exams/m124finalaut2019Ans.pdf"
   },
   {
     "id": "m124finalspr2019",
@@ -1472,14 +1482,17 @@
     "year": 2019,
     "instructor": "Staff",
     "topics": [
-      "derivatives",
-      "functions",
-      "implicit differentiation",
       "limits",
-      "work"
+      "derivatives",
+      "chain rule",
+      "implicit differentiation",
+      "related rates",
+      "optimization",
+      "curve sketching",
+      "linear approximation"
     ],
     "pdf": "exams/m124finalSpr2019.pdf",
-    "answer_key": "exams/m124finalSpr2019Ans.pdf"
+    "answer_key": "exams/m124finalspr2019Ans.pdf"
   },
   {
     "id": "m124finalwin2019",
@@ -1489,13 +1502,17 @@
     "year": 2019,
     "instructor": "Staff",
     "topics": [
-      "derivatives",
-      "functions",
       "limits",
-      "work"
+      "derivatives",
+      "implicit differentiation",
+      "related rates",
+      "optimization",
+      "curve sketching",
+      "MVT",
+      "antiderivatives"
     ],
     "pdf": "exams/m124finalWin2019.pdf",
-    "answer_key": "exams/m124finalWin2019Ans.pdf"
+    "answer_key": "exams/m124finalwin2019Ans.pdf"
   },
   {
     "id": "m125finalaut2019",
@@ -1505,12 +1522,18 @@
     "year": 2019,
     "instructor": "Staff",
     "topics": [
-      "distance",
-      "limits",
-      "work"
+      "trig integrals",
+      "integration by parts",
+      "partial fractions",
+      "improper integrals",
+      "FTC",
+      "area between curves",
+      "volumes of revolution",
+      "work",
+      "sequences"
     ],
     "pdf": "exams/m125finalAut2019.pdf",
-    "answer_key": "exams/m125finalAut2019Ans.pdf"
+    "answer_key": "exams/m125finalaut2019Ans.pdf"
   },
   {
     "id": "m125finalspr2019",
@@ -1520,15 +1543,17 @@
     "year": 2019,
     "instructor": "Staff",
     "topics": [
-      "distance",
-      "integration by-parts",
-      "chain rule",
-      "product rule",
-      "trigonometric substitution",
-      "trigonometric integration"
+      "trig integrals",
+      "integration by parts",
+      "partial fractions",
+      "trig substitution",
+      "improper integrals",
+      "FTC",
+      "area between curves",
+      "volumes of revolution"
     ],
     "pdf": "exams/m125finalSpr2019.pdf",
-    "answer_key": "exams/m125finalSpr2019Ans.pdf"
+    "answer_key": "exams/m125finalspr2019Ans.pdf"
   },
   {
     "id": "m125finalwin2019",
@@ -1538,15 +1563,18 @@
     "year": 2019,
     "instructor": "Staff",
     "topics": [
-      "distance",
-      "integration by-parts",
-      "chain rule",
-      "product rule",
-      "trigonometric substitution",
-      "trigonometric integration"
+      "partial fractions",
+      "trig substitution",
+      "integration by parts",
+      "FTC",
+      "area between curves",
+      "volumes of revolution",
+      "improper integrals",
+      "sequences",
+      "series"
     ],
     "pdf": "exams/m125finalWin2019.pdf",
-    "answer_key": "exams/m125finalWin2019Ans.pdf"
+    "answer_key": "exams/m125finalwin2019Ans.pdf"
   },
   {
     "id": "m125mid1win2019",
@@ -1565,7 +1593,7 @@
       "net change"
     ],
     "pdf": "exams/m125mid1Win2019.pdf",
-    "answer_key": "exams/m125mid1Win2019Ans.pdf"
+    "answer_key": "exams/m125mid1win2019Ans.pdf"
   },
   {
     "id": "m125mid2win2019",
@@ -1585,7 +1613,7 @@
       "Simpson's rule"
     ],
     "pdf": "exams/m125mid2Win2019.pdf",
-    "answer_key": "exams/m125mid2Win2019Ans.pdf"
+    "answer_key": "exams/m125mid2win2019Ans.pdf"
   },
   {
     "id": "m126finalspr2019",
@@ -1595,16 +1623,18 @@
     "year": 2019,
     "instructor": "Staff",
     "topics": [
-      "critical points",
+      "lines and planes",
+      "space curves",
       "curvature",
-      "distance",
-      "planes",
-      "series",
-      "taylor series",
-      "work"
+      "tangent planes",
+      "partial derivatives",
+      "critical points",
+      "double integrals",
+      "polar coordinates",
+      "reversing order of integration"
     ],
     "pdf": "exams/m126finalSpr2019.pdf",
-    "answer_key": "exams/m126finalSpr2019Ans.pdf"
+    "answer_key": "exams/m126finalspr2019Ans.pdf"
   },
   {
     "id": "m126finalwin2019",
@@ -1614,14 +1644,18 @@
     "year": 2019,
     "instructor": "Staff",
     "topics": [
-      "critical points",
-      "distance",
-      "parametric equations",
-      "planes",
-      "work"
+      "lines and planes",
+      "quadric surfaces",
+      "space curves",
+      "curvature",
+      "tangent planes",
+      "linearization",
+      "optimization",
+      "double integrals",
+      "reversing order of integration"
     ],
     "pdf": "exams/m126finalWin2019.pdf",
-    "answer_key": "exams/m126finalWin2019Ans.pdf"
+    "answer_key": "exams/m126finalwin2019Ans.pdf"
   },
   {
     "id": "m126mid1spr2019",
@@ -1631,14 +1665,16 @@
     "year": 2019,
     "instructor": "Staff",
     "topics": [
-      "distance",
-      "parametric equations",
-      "planes",
       "vectors",
-      "work"
+      "dot product",
+      "cross product",
+      "lines and planes",
+      "projections",
+      "quadric surfaces",
+      "parametric equations"
     ],
     "pdf": "exams/m126mid1Spr2019.pdf",
-    "answer_key": "exams/m126mid1Spr2019Ans.pdf"
+    "answer_key": "exams/m126mid1spr2019Ans.pdf"
   },
   {
     "id": "m126mid2spr2019",
@@ -1648,12 +1684,15 @@
     "year": 2019,
     "instructor": "Staff",
     "topics": [
-      "critical points",
-      "implicit differentiation",
-      "work"
+      "Taylor series",
+      "power series",
+      "Maclaurin series",
+      "radius of convergence",
+      "Taylor polynomials",
+      "Taylor's inequality"
     ],
     "pdf": "exams/m126mid2Spr2019.pdf",
-    "answer_key": "exams/m126mid2Spr2019Ans.pdf"
+    "answer_key": "exams/m126mid2spr2019Ans.pdf"
   },
   {
     "id": "m120finalspr2018",
@@ -1663,11 +1702,17 @@
     "year": 2018,
     "instructor": "Staff",
     "topics": [
-      "distance",
-      "work"
+      "functions",
+      "domain and range",
+      "exponential functions",
+      "logarithms",
+      "trigonometry",
+      "sinusoidal models",
+      "inverse functions",
+      "linear-to-linear models"
     ],
     "pdf": "exams/m120finalSpr2018.pdf",
-    "answer_key": "exams/m120finalSpr2018Ans.pdf"
+    "answer_key": "exams/m120finalspr2018Ans.pdf"
   },
   {
     "id": "m124finalaut2018",
@@ -1677,13 +1722,17 @@
     "year": 2018,
     "instructor": "Staff",
     "topics": [
-      "derivatives",
-      "functions",
       "limits",
-      "work"
+      "L'Hopital's rule",
+      "derivatives",
+      "implicit differentiation",
+      "related rates",
+      "optimization",
+      "curve sketching",
+      "antiderivatives"
     ],
     "pdf": "exams/m124finalAut2018.pdf",
-    "answer_key": "exams/m124finalAut2018Ans.pdf"
+    "answer_key": "exams/m124finalaut2018Ans.pdf"
   },
   {
     "id": "m124finalspr2018",
@@ -1693,14 +1742,17 @@
     "year": 2018,
     "instructor": "Staff",
     "topics": [
-      "derivatives",
-      "distance",
-      "functions",
       "limits",
-      "work"
+      "derivatives",
+      "chain rule",
+      "implicit differentiation",
+      "related rates",
+      "optimization",
+      "curve sketching",
+      "linear approximation"
     ],
     "pdf": "exams/m124finalSpr2018.pdf",
-    "answer_key": "exams/m124finalSpr2018Ans.pdf"
+    "answer_key": "exams/m124finalspr2018Ans.pdf"
   },
   {
     "id": "m125finalaut2018",
@@ -1710,12 +1762,18 @@
     "year": 2018,
     "instructor": "Staff",
     "topics": [
-      "center of mass",
-      "distance",
-      "work"
+      "trig integrals",
+      "integration by parts",
+      "partial fractions",
+      "FTC",
+      "area between curves",
+      "volumes of revolution",
+      "improper integrals",
+      "work",
+      "sequences"
     ],
     "pdf": "exams/m125finalAut2018.pdf",
-    "answer_key": "exams/m125finalAut2018Ans.pdf"
+    "answer_key": "exams/m125finalaut2018Ans.pdf"
   },
   {
     "id": "m125finalspr2018",
@@ -1725,15 +1783,17 @@
     "year": 2018,
     "instructor": "Staff",
     "topics": [
-      "average value",
-      "integration by-parts",
-      "chain rule",
-      "product rule",
-      "trigonometric substitution",
-      "trigonometric integration"
+      "trig integrals",
+      "integration by parts",
+      "partial fractions",
+      "trig substitution",
+      "FTC",
+      "area between curves",
+      "volumes of revolution",
+      "improper integrals"
     ],
     "pdf": "exams/m125finalSpr2018.pdf",
-    "answer_key": "exams/m125finalSpr2018Ans.pdf"
+    "answer_key": "exams/m125finalspr2018Ans.pdf"
   },
   {
     "id": "m125finalwin2018",
@@ -1743,15 +1803,18 @@
     "year": 2018,
     "instructor": "Staff",
     "topics": [
-      "arc length",
-      "integration by-parts",
-      "chain rule",
-      "product rule",
-      "trigonometric substitution",
-      "trigonometric integration"
+      "trig integrals",
+      "trig substitution",
+      "integration by parts",
+      "FTC",
+      "area between curves",
+      "volumes of revolution",
+      "work",
+      "center of mass",
+      "improper integrals"
     ],
     "pdf": "exams/m125finalWin2018.pdf",
-    "answer_key": "exams/m125finalWin2018Ans.pdf"
+    "answer_key": "exams/m125finalwin2018Ans.pdf"
   },
   {
     "id": "m125mid1win2018",
@@ -1769,7 +1832,7 @@
       "net change"
     ],
     "pdf": "exams/m125mid1Win2018.pdf",
-    "answer_key": "exams/m125mid1Win2018Ans.pdf"
+    "answer_key": "exams/m125mid1win2018Ans.pdf"
   },
   {
     "id": "m125mid2win2018",
@@ -1789,7 +1852,7 @@
       "volumes of revolution"
     ],
     "pdf": "exams/m125mid2Win2018.pdf",
-    "answer_key": "exams/m125mid2Win2018Ans.pdf"
+    "answer_key": "exams/m125mid2win2018Ans.pdf"
   },
   {
     "id": "m126finalaut2018",
@@ -1808,11 +1871,10 @@
       "critical points",
       "partial derivatives",
       "linearization",
-      "double integrals",
-      "center of mass"
+      "double integrals"
     ],
     "pdf": "exams/m126finalAut2018.pdf",
-    "answer_key": "exams/m126finalAut2018Ans.pdf"
+    "answer_key": "exams/m126finalaut2018Ans.pdf"
   },
   {
     "id": "m126finalspr2018",
@@ -1834,7 +1896,7 @@
       "Taylor series"
     ],
     "pdf": "exams/m126finalSpr2018.pdf",
-    "answer_key": "exams/m126finalSpr2018Ans.pdf"
+    "answer_key": "exams/m126finalspr2018Ans.pdf"
   },
   {
     "id": "m126finalwin2018",
@@ -1856,7 +1918,7 @@
       "Taylor polynomials"
     ],
     "pdf": "exams/m126finalWin2018.pdf",
-    "answer_key": "exams/m126finalWin2018Ans.pdf"
+    "answer_key": "exams/m126finalwin2018Ans.pdf"
   },
   {
     "id": "m126mid1aut2018",
@@ -1866,12 +1928,16 @@
     "year": 2018,
     "instructor": "Staff",
     "topics": [
-      "functions",
-      "vector functions",
-      "work"
+      "vectors",
+      "dot product",
+      "cross product",
+      "lines and planes",
+      "quadric surfaces",
+      "projections",
+      "parametric equations"
     ],
     "pdf": "exams/m126mid1Aut2018.pdf",
-    "answer_key": "exams/m126mid1Aut2018Ans.pdf"
+    "answer_key": "exams/m126mid1aut2018Ans.pdf"
   },
   {
     "id": "m126mid1spr2018",
@@ -1881,14 +1947,16 @@
     "year": 2018,
     "instructor": "Staff",
     "topics": [
-      "arc length",
-      "distance",
-      "parametric equations",
-      "planes",
-      "work"
+      "vectors",
+      "dot product",
+      "cross product",
+      "lines and planes",
+      "projections",
+      "quadric surfaces",
+      "planes"
     ],
     "pdf": "exams/m126mid1Spr2018.pdf",
-    "answer_key": "exams/m126mid1Spr2018Ans.pdf"
+    "answer_key": "exams/m126mid1spr2018Ans.pdf"
   },
   {
     "id": "m126mid2aut2018",
@@ -1898,11 +1966,15 @@
     "year": 2018,
     "instructor": "Staff",
     "topics": [
-      "planes",
-      "work"
+      "Taylor series",
+      "power series",
+      "Maclaurin series",
+      "radius of convergence",
+      "Taylor polynomials",
+      "error bounds"
     ],
     "pdf": "exams/m126mid2Aut2018.pdf",
-    "answer_key": "exams/m126mid2Aut2018Ans.pdf"
+    "answer_key": "exams/m126mid2aut2018Ans.pdf"
   },
   {
     "id": "m126mid2spr2018",
@@ -1912,11 +1984,15 @@
     "year": 2018,
     "instructor": "Staff",
     "topics": [
-      "planes",
-      "work"
+      "Taylor series",
+      "power series",
+      "Maclaurin series",
+      "radius of convergence",
+      "Taylor polynomials",
+      "Taylor's inequality"
     ],
     "pdf": "exams/m126mid2Spr2018.pdf",
-    "answer_key": "exams/m126mid2Spr2018Ans.pdf"
+    "answer_key": "exams/m126mid2spr2018Ans.pdf"
   },
   {
     "id": "m124mid1win2017",
@@ -1927,10 +2003,16 @@
     "instructor": "Staff",
     "topics": [
       "limits",
-      "work"
+      "continuity",
+      "derivatives",
+      "product rule",
+      "quotient rule",
+      "chain rule",
+      "IVT",
+      "squeeze theorem"
     ],
     "pdf": "exams/m124mid1Win2017.pdf",
-    "answer_key": "exams/m124mid1Win2017Ans.pdf"
+    "answer_key": "exams/m124mid1win2017Ans.pdf"
   },
   {
     "id": "m124mid2win2017",
@@ -1941,10 +2023,14 @@
     "instructor": "Staff",
     "topics": [
       "derivatives",
-      "work"
+      "implicit differentiation",
+      "related rates",
+      "parametric curves",
+      "linear approximation",
+      "logarithmic differentiation"
     ],
     "pdf": "exams/m124mid2Win2017.pdf",
-    "answer_key": "exams/m124mid2Win2017Ans.pdf"
+    "answer_key": "exams/m124mid2win2017Ans.pdf"
   },
   {
     "id": "m125mid1aut2017",
@@ -1954,11 +2040,15 @@
     "year": 2017,
     "instructor": "Staff",
     "topics": [
-      "distance",
-      "work"
+      "u-substitution",
+      "FTC",
+      "definite integrals",
+      "Riemann sums",
+      "area between curves",
+      "net change"
     ],
     "pdf": "exams/m125mid1Aut2017.pdf",
-    "answer_key": "exams/m125mid1Aut2017Ans.pdf"
+    "answer_key": "exams/m125mid1aut2017Ans.pdf"
   },
   {
     "id": "m125mid1win2017",
@@ -1968,10 +2058,15 @@
     "year": 2017,
     "instructor": "Staff",
     "topics": [
-      "work"
+      "u-substitution",
+      "FTC",
+      "definite integrals",
+      "Riemann sums",
+      "area between curves",
+      "net change"
     ],
     "pdf": "exams/m125mid1Win2017.pdf",
-    "answer_key": "exams/m125mid1Win2017Ans.pdf"
+    "answer_key": "exams/m125mid1win2017Ans.pdf"
   },
   {
     "id": "m125mid2aut2017",
@@ -1990,7 +2085,7 @@
       "work"
     ],
     "pdf": "exams/m125mid2Aut2017.pdf",
-    "answer_key": "exams/m125mid2Aut2017Ans.pdf"
+    "answer_key": "exams/m125mid2aut2017Ans.pdf"
   },
   {
     "id": "m126finalaut2017",
@@ -2012,7 +2107,7 @@
       "polar coordinates"
     ],
     "pdf": "exams/m126finalAut2017.pdf",
-    "answer_key": "exams/m126finalAut2017Ans.pdf"
+    "answer_key": "exams/m126finalaut2017Ans.pdf"
   },
   {
     "id": "m126finalspr2017",
@@ -2034,7 +2129,7 @@
       "power series"
     ],
     "pdf": "exams/m126finalSpr2017.pdf",
-    "answer_key": "exams/m126finalSpr2017Ans.pdf"
+    "answer_key": "exams/m126finalspr2017Ans.pdf"
   },
   {
     "id": "m126finalwin2017",
@@ -2052,12 +2147,11 @@
       "linearization",
       "optimization",
       "double integrals",
-      "reversing order of integration",
       "Taylor polynomials",
       "Taylor's inequality"
     ],
     "pdf": "exams/m126finalWin2017.pdf",
-    "answer_key": "exams/m126finalWin2017Ans.pdf"
+    "answer_key": "exams/m126finalwin2017Ans.pdf"
   },
   {
     "id": "m126mid1spr2017",
@@ -2067,12 +2161,16 @@
     "year": 2017,
     "instructor": "Staff",
     "topics": [
-      "polar coordinates",
-      "tangent lines",
-      "work"
+      "vectors",
+      "dot product",
+      "cross product",
+      "lines and planes",
+      "projections",
+      "quadric surfaces",
+      "parametric equations"
     ],
     "pdf": "exams/m126mid1Spr2017.pdf",
-    "answer_key": "exams/m126mid1Spr2017Ans.pdf"
+    "answer_key": "exams/m126mid1spr2017Ans.pdf"
   },
   {
     "id": "m126mid2spr2017",
@@ -2082,14 +2180,15 @@
     "year": 2017,
     "instructor": "Staff",
     "topics": [
-      "critical points",
-      "implicit differentiation",
-      "parametric equations",
-      "vectors",
-      "work"
+      "Taylor series",
+      "power series",
+      "Maclaurin series",
+      "radius of convergence",
+      "Taylor polynomials",
+      "error bounds"
     ],
     "pdf": "exams/m126mid2Spr2017.pdf",
-    "answer_key": "exams/m126mid2Spr2017Ans.pdf"
+    "answer_key": "exams/m126mid2spr2017Ans.pdf"
   },
   {
     "id": "m120finalaut2016",
@@ -2099,10 +2198,18 @@
     "year": 2016,
     "instructor": "Staff",
     "topics": [
-      "work"
+      "functions",
+      "domain and range",
+      "exponential functions",
+      "logarithms",
+      "trigonometry",
+      "sinusoidal models",
+      "inverse functions",
+      "piecewise functions",
+      "circular motion"
     ],
     "pdf": "exams/m120finalAut2016.pdf",
-    "answer_key": "exams/m120finalAut2016Ans.pdf"
+    "answer_key": "exams/m120finalaut2016Ans.pdf"
   },
   {
     "id": "m124mid1win2016",
@@ -2112,12 +2219,16 @@
     "year": 2016,
     "instructor": "Staff",
     "topics": [
-      "derivatives",
       "limits",
-      "work"
+      "continuity",
+      "derivatives",
+      "product rule",
+      "quotient rule",
+      "chain rule",
+      "IVT"
     ],
     "pdf": "exams/m124mid1Win2016.pdf",
-    "answer_key": "exams/m124mid1Win2016Ans.pdf"
+    "answer_key": "exams/m124mid1win2016Ans.pdf"
   },
   {
     "id": "m124mid2win2016",
@@ -2127,11 +2238,15 @@
     "year": 2016,
     "instructor": "Staff",
     "topics": [
+      "derivatives",
+      "implicit differentiation",
+      "related rates",
+      "parametric curves",
       "linear approximation",
-      "work"
+      "logarithmic differentiation"
     ],
     "pdf": "exams/m124mid2Win2016.pdf",
-    "answer_key": "exams/m124mid2Win2016Ans.pdf"
+    "answer_key": "exams/m124mid2win2016Ans.pdf"
   },
   {
     "id": "m126mid1win2016",
@@ -2141,11 +2256,16 @@
     "year": 2016,
     "instructor": "Staff",
     "topics": [
-      "parametric equations",
-      "work"
+      "vectors",
+      "dot product",
+      "cross product",
+      "lines and planes",
+      "quadric surfaces",
+      "projections",
+      "parametric equations"
     ],
     "pdf": "exams/m126mid1Win2016.pdf",
-    "answer_key": "exams/m126mid1Win2016Ans.pdf"
+    "answer_key": "exams/m126mid1win2016Ans.pdf"
   },
   {
     "id": "m126mid2win2016",
@@ -2155,14 +2275,15 @@
     "year": 2016,
     "instructor": "Staff",
     "topics": [
-      "critical points",
-      "implicit differentiation",
-      "linear approximation",
-      "polar coordinates",
-      "work"
+      "Taylor series",
+      "power series",
+      "Maclaurin series",
+      "radius of convergence",
+      "Taylor polynomials",
+      "Taylor's inequality"
     ],
     "pdf": "exams/m126mid2Win2016.pdf",
-    "answer_key": "exams/m126mid2Win2016Ans.pdf"
+    "answer_key": "exams/m126mid2win2016Ans.pdf"
   },
   {
     "id": "m120mid1aut2009",
@@ -2172,11 +2293,16 @@
     "year": 2009,
     "instructor": "Staff",
     "topics": [
-      "parametric equations",
-      "work"
+      "functions",
+      "domain and range",
+      "piecewise functions",
+      "inverse functions",
+      "function composition",
+      "linear functions",
+      "quadratic functions"
     ],
     "pdf": "exams/m120mid1Aut2009.pdf",
-    "answer_key": "exams/m120mid1Aut2009Ans.pdf"
+    "answer_key": "exams/m120mid1aut2009Ans.pdf"
   },
   {
     "id": "m120mid2aut2009",
@@ -2186,10 +2312,17 @@
     "year": 2009,
     "instructor": "Staff",
     "topics": [
-      "work"
+      "exponential functions",
+      "logarithms",
+      "trigonometry",
+      "unit circle",
+      "sinusoidal models",
+      "angular speed",
+      "circular motion",
+      "linear-to-linear models"
     ],
     "pdf": "exams/m120mid2Aut2009.pdf",
-    "answer_key": "exams/m120mid2Aut2009Ans.pdf"
+    "answer_key": "exams/m120mid2aut2009Ans.pdf"
   },
   {
     "id": "m120mid1aut2008",
@@ -2200,11 +2333,14 @@
     "instructor": "Staff",
     "topics": [
       "functions",
-      "linear functions",
-      "work"
+      "domain and range",
+      "piecewise functions",
+      "inverse functions",
+      "function composition",
+      "linear functions"
     ],
     "pdf": "exams/m120mid1Aut2008.pdf",
-    "answer_key": "exams/m120mid1Aut2008Ans.pdf"
+    "answer_key": "exams/m120mid1aut2008Ans.pdf"
   },
   {
     "id": "m120mid2aut2008",
@@ -2214,10 +2350,16 @@
     "year": 2008,
     "instructor": "Staff",
     "topics": [
-      "work"
+      "exponential functions",
+      "logarithms",
+      "trigonometry",
+      "sinusoidal models",
+      "angular speed",
+      "circular motion",
+      "belt and wheel systems"
     ],
     "pdf": "exams/m120mid2Aut2008.pdf",
-    "answer_key": "exams/m120mid2Aut2008Ans.pdf"
+    "answer_key": "exams/m120mid2aut2008Ans.pdf"
   },
   {
     "id": "m120mid1aut2007",
@@ -2227,10 +2369,16 @@
     "year": 2007,
     "instructor": "Staff",
     "topics": [
-      "work"
+      "functions",
+      "domain and range",
+      "piecewise functions",
+      "inverse functions",
+      "function composition",
+      "linear functions",
+      "distance and rate"
     ],
     "pdf": "exams/m120mid1Aut2007.pdf",
-    "answer_key": "exams/m120mid1Aut2007Ans.pdf"
+    "answer_key": "exams/m120mid1aut2007Ans.pdf"
   },
   {
     "id": "m120mid1aut2006",
@@ -2240,10 +2388,15 @@
     "year": 2006,
     "instructor": "Staff",
     "topics": [
-      "work"
+      "functions",
+      "domain and range",
+      "piecewise functions",
+      "inverse functions",
+      "function composition",
+      "linear functions"
     ],
     "pdf": "exams/m120mid1Aut2006.pdf",
-    "answer_key": "exams/m120mid1Aut2006Ans.pdf"
+    "answer_key": "exams/m120mid1aut2006Ans.pdf"
   },
   {
     "id": "m120mid1win2006",
@@ -2253,10 +2406,15 @@
     "year": 2006,
     "instructor": "Staff",
     "topics": [
-      "work"
+      "linear-to-linear models",
+      "belt and wheel systems",
+      "angular speed",
+      "trigonometry",
+      "circular motion",
+      "sinusoidal functions"
     ],
     "pdf": "exams/m120mid1Win2006.pdf",
-    "answer_key": "exams/m120mid1Win2006Ans.pdf"
+    "answer_key": "exams/m120mid1win2006Ans.pdf"
   },
   {
     "id": "m120mid2aut2006",
@@ -2270,12 +2428,11 @@
       "circular motion",
       "angular speed",
       "trigonometry",
-      "piecewise functions",
       "inverse functions",
-      "sinusoidal functions"
+      "piecewise functions"
     ],
     "pdf": "exams/m120mid2Aut2006.pdf",
-    "answer_key": "exams/m120mid2Aut2006Ans.pdf"
+    "answer_key": "exams/m120mid2aut2006Ans.pdf"
   },
   {
     "id": "m120mid2win2006",
@@ -2293,7 +2450,7 @@
       "sinusoidal functions"
     ],
     "pdf": "exams/m120mid2Win2006.pdf",
-    "answer_key": "exams/m120mid2Win2006Ans.pdf"
+    "answer_key": "exams/m120mid2win2006Ans.pdf"
   },
   {
     "id": "m120mid1aut2005",
@@ -2303,16 +2460,16 @@
     "year": 2005,
     "instructor": "Staff",
     "topics": [
-      "functions",
-      "multipart functions",
-      "function composition",
       "linear functions",
-      "distance",
+      "distance and rate",
+      "piecewise functions",
+      "function composition",
+      "inverse functions",
       "quadratic functions",
       "difference quotient"
     ],
     "pdf": "exams/m120mid1Aut2005.pdf",
-    "answer_key": "exams/m120mid1Aut2005Ans.pdf"
+    "answer_key": "exams/m120mid1aut2005Ans.pdf"
   },
   {
     "id": "m120mid2aut2005",
@@ -2326,10 +2483,10 @@
       "trigonometry",
       "piecewise functions",
       "belt and wheel systems",
-      "circular motion",
-      "sinusoidal functions"
+      "angular speed",
+      "circular motion"
     ],
     "pdf": "exams/m120mid2Aut2005.pdf",
-    "answer_key": "exams/m120mid2Aut2005Ans.pdf"
+    "answer_key": "exams/m120mid2aut2005Ans.pdf"
   }
 ]
