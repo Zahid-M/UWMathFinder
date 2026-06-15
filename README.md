@@ -1,4 +1,4 @@
-Welcome to [https://sigma-works.github.io/UWMathFinder/](UWMathFinder)!
+Welcome to [UWMathFinder](UWMathFinder)!
 
 This project was designed by Saad and Zahid, two UW students who finished up the Math 12X series and thought, "Hey, we can make this better!"
 We saw how our professors (and fellow students!) would have a tough time finding a specific topic in an exam series in class to showcase
@@ -7,7 +7,7 @@ the exam show up as tags so that students and professors could easily practice a
 final exams for hours"? And then we realized we could actually make this happen via this project!
 
 
-Together, we amalgamated a database of dozens, if not hundreds, of final exams from MATH 120, 124, 125, and 126, and we placed them
+Together, we amalgamated a database of hundreds, of exams and their answer keys from MATH 120, 124, 125, and 126, and we placed them
 all in one place. The tags underneath each exam, as can be seen in the image below, showcase the topics and concepts that the exam
 tested.
 
@@ -34,6 +34,11 @@ Exam solutions are also available alongside each midterm or final.
 We hope that our project will be able to make the lives of professors and students easier by allowing them to access specific topics or exams
 all in one place for either showcasing worked solutions or for practicing for a final exam! Saad and Zahid are still working on
 adding more exams and finals. So without further adue, say hello to UWMathFinder, currently v0.4!
+
+The website is hyperlinked both in the first line of this ReadMe and here:
+[https://sigma-works.github.io/UWMathFinder/](url)
+
+Enjoy!
 
 Regards,
 
