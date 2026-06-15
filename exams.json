@@ -340,8 +340,7 @@
       "distance",
       "implicit differentiation",
       "linear approximation",
-      "saddle points",
-      "work"
+      "saddle points"
     ],
     "pdf": "exams/m126mid2Spr2025.pdf",
     "answer_key": "exams/m126mid2Spr2025Ans.pdf"
@@ -354,7 +353,12 @@
     "year": 2024,
     "instructor": "Staff",
     "topics": [
-      "work"
+      "parametric equations",
+      "speed",
+      "area functions",
+      "linear-to-linear rational function of time",
+      "rational modeling",
+      "exponential modeling"
     ],
     "pdf": "exams/m120finalSpr2024.pdf",
     "answer_key": "exams/m120finalSpr2024Ans.pdf"
@@ -370,8 +374,7 @@
       "derivatives",
       "functions",
       "limits",
-      "parametric equations",
-      "work"
+      "parametric equations"
     ],
     "pdf": "exams/m124finalAut2024.pdf",
     "answer_key": "exams/m124finalAut2024Ans.pdf"
@@ -386,7 +389,10 @@
     "topics": [
       "functions",
       "limits",
-      "work"
+      "graphing functions and limits",
+      "continuity",
+      "optimization",
+      "parametric equations"
     ],
     "pdf": "exams/m124finalSpr2024.pdf",
     "answer_key": "exams/m124finalSpr2024Ans.pdf"
@@ -402,7 +408,9 @@
       "derivatives",
       "functions",
       "limits",
-      "work"
+      "optimization",
+      "graphing functions and limits",
+      "continuity"
     ],
     "pdf": "exams/m124finalWin2024.pdf",
     "answer_key": "exams/m124finalWin2024Ans.pdf"
@@ -416,7 +424,9 @@
     "instructor": "Staff",
     "topics": [
       "limits",
-      "work"
+      "continuous functions",
+      "tangent lines",
+      "intersections of tangent lines with curves"
     ],
     "pdf": "exams/m124mid1Aut2024.pdf",
     "answer_key": "exams/m124mid1Aut2024Ans.pdf"
@@ -431,7 +441,9 @@
     "topics": [
       "functions",
       "limits",
-      "work"
+      "tangent lines",
+      "limit definition of derivative",
+      "graphing functions and limits"
     ],
     "pdf": "exams/m124mid1Win2024.pdf",
     "answer_key": "exams/m124mid1Win2024Ans.pdf"
@@ -445,8 +457,7 @@
     "instructor": "Staff",
     "topics": [
       "derivatives",
-      "functions",
-      "work"
+      "functions"
     ],
     "pdf": "exams/m124mid2Aut2024.pdf",
     "answer_key": "exams/m124mid2Aut2024Ans.pdf"
@@ -461,8 +472,7 @@
     "topics": [
       "derivatives",
       "functions",
-      "parametric equations",
-      "work"
+      "parametric equations"
     ],
     "pdf": "exams/m124mid2Win2024.pdf",
     "answer_key": "exams/m124mid2Win2024Ans.pdf"
@@ -535,7 +545,12 @@
     "instructor": "Staff",
     "topics": [
       "average value",
-      "work"
+      "trigonometric substitution",
+      "trigonometric integration",
+      "integration by-parts",
+      "area",
+      "work to pump tank"
+      
     ],
     "pdf": "exams/m125mid2Aut2024.pdf",
     "answer_key": "exams/m125mid2Aut2024Ans.pdf"
@@ -688,8 +703,7 @@
       "continuity",
       "derivatives",
       "functions",
-      "limits",
-      "work"
+      "limits"
     ],
     "pdf": "exams/m124finalAut2023.pdf",
     "answer_key": "exams/m124finalAut2023Ans.pdf"
@@ -704,7 +718,12 @@
     "topics": [
       "derivatives",
       "functions",
-      "work"
+      "L'hospitals Rule",
+      "graphs of functions and limits",
+      "implicit differentiation",
+      "linear approximation",
+      "speed, velocity, distance, time, kinematics",
+      "optimization"
     ],
     "pdf": "exams/m124finalSpr2023.pdf",
     "answer_key": "exams/m124finalSpr2023Ans.pdf"
@@ -721,8 +740,7 @@
       "functions",
       "limits",
       "linear approximation",
-      "parametric equations",
-      "work"
+      "parametric equations"
     ],
     "pdf": "exams/m124finalWin2023.pdf",
     "answer_key": "exams/m124finalWin2023Ans.pdf"
@@ -736,7 +754,10 @@
     "instructor": "Staff",
     "topics": [
       "limits",
-      "work"
+      "graphs of functions and limits",
+      "L'hospitals Rule",
+      "derivatives",
+      "tangent lines"
     ],
     "pdf": "exams/m124mid1Aut2023.pdf",
     "answer_key": "exams/m124mid1Aut2023Ans.pdf"
@@ -751,7 +772,12 @@
     "topics": [
       "distance",
       "functions",
-      "work"
+      "quotient rule",
+      "product rule",
+      "chain rule",
+      "limits",
+      "tangent lines",
+      "speed, distance, time"
     ],
     "pdf": "exams/m124mid1Spr2023.pdf",
     "answer_key": "exams/m124mid1Spr2023Ans.pdf"
@@ -765,7 +791,13 @@
     "instructor": "Staff",
     "topics": [
       "limits",
-      "work"
+      "tangent lines",
+      "product rule",
+      "quotient rule",
+      "chain rule",
+      "continuous limits",
+      "acceleration",
+      "points of intersection"
     ],
     "pdf": "exams/m124mid1Win2023.pdf",
     "answer_key": "exams/m124mid1Win2023Ans.pdf"
@@ -781,7 +813,11 @@
       "derivatives",
       "functions",
       "parametric equations",
-      "work"
+      "chain rule",
+      "product rule",
+      "quotient rule",
+      "optimization",
+      "tangent lines"
     ],
     "pdf": "exams/m124mid2Aut2023.pdf",
     "answer_key": "exams/m124mid2Aut2023Ans.pdf"
@@ -795,7 +831,10 @@
     "instructor": "Staff",
     "topics": [
       "linear approximation",
-      "work"
+      "tangent line",
+      "product rule",
+      "quotient rule",
+      "chain rule"
     ],
     "pdf": "exams/m124mid2Spr2023.pdf",
     "answer_key": "exams/m124mid2Spr2023Ans.pdf"
@@ -811,7 +850,7 @@
       "derivatives",
       "functions",
       "parametric equations",
-      "work"
+      "chain rule"
     ],
     "pdf": "exams/m124mid2Win2023.pdf",
     "answer_key": "exams/m124mid2Win2023Ans.pdf"
@@ -915,6 +954,12 @@
     "year": 2023,
     "instructor": "Staff",
     "topics": [
+      "integration by-parts",
+      "trigonometric substitution",
+      "trigonometric integration",
+      "improper integrals",
+      "Simpson's rule",
+      "leaky bucket",
       "work"
     ],
     "pdf": "exams/m125mid2Win2023.pdf",
@@ -1160,7 +1205,11 @@
     "topics": [
       "functions",
       "tangent lines",
-      "work"
+      "trigonometry",
+      "continuous limits",
+      "definition of a derivative",
+      "graphing limits and functions",
+      "points of intersection"
     ],
     "pdf": "exams/m124mid1Win2022.pdf",
     "answer_key": "exams/m124mid1Win2022Ans.pdf"
@@ -1176,7 +1225,15 @@
       "distance",
       "linearization",
       "parametric equations",
-      "work"
+      "tangent lines",
+      "chain rule",
+      "implicit differentiation",
+      "differentiation",
+      "derivatives",
+      "linear approximation",
+      "parametric equations",
+      "particle motion",
+      "speed, distance, time, acceleration",
     ],
     "pdf": "exams/m124mid2Aut2022.pdf",
     "answer_key": "exams/m124mid2Aut2022Ans.pdf"
@@ -1192,7 +1249,8 @@
       "distance",
       "functions",
       "parametric equations",
-      "work"
+      "chain rule",
+      "tangent lines"
     ],
     "pdf": "exams/m124mid2Win2022.pdf",
     "answer_key": "exams/m124mid2Win2022Ans.pdf"
@@ -1463,7 +1521,11 @@
     "instructor": "Staff",
     "topics": [
       "distance",
-      "work"
+      "integration by-parts",
+      "chain rule",
+      "product rule",
+      "trigonometric substitution",
+      "trigonometric integration"
     ],
     "pdf": "exams/m125finalSpr2019.pdf",
     "answer_key": "exams/m125finalSpr2019Ans.pdf"
@@ -1477,7 +1539,11 @@
     "instructor": "Staff",
     "topics": [
       "distance",
-      "work"
+      "integration by-parts",
+      "chain rule",
+      "product rule",
+      "trigonometric substitution",
+      "trigonometric integration"
     ],
     "pdf": "exams/m125finalWin2019.pdf",
     "answer_key": "exams/m125finalWin2019Ans.pdf"
@@ -1660,8 +1726,11 @@
     "instructor": "Staff",
     "topics": [
       "average value",
-      "distance",
-      "work"
+      "integration by-parts",
+      "chain rule",
+      "product rule",
+      "trigonometric substitution",
+      "trigonometric integration"
     ],
     "pdf": "exams/m125finalSpr2018.pdf",
     "answer_key": "exams/m125finalSpr2018Ans.pdf"
@@ -1675,7 +1744,11 @@
     "instructor": "Staff",
     "topics": [
       "arc length",
-      "work"
+      "integration by-parts",
+      "chain rule",
+      "product rule",
+      "trigonometric substitution",
+      "trigonometric integration"
     ],
     "pdf": "exams/m125finalWin2018.pdf",
     "answer_key": "exams/m125finalWin2018Ans.pdf"
